@@ -2,16 +2,10 @@
 
 Este documento detalla los servicios web que permiten comunicarse con Fidelitytools bajo el protocolo de comunicación REST y el formato de los mensajes JSON.
 
+#### Autenticación
++ [Generar token de acceso](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/autenticaci%C3%B3n.md)
 
-### Módulo Segmentación
-**Función Set Personas**
-***
+##
 
-Permite registrar o actualizar una o más personas de uno o más segmentos asociados.
-
-***URL:***
-[https://ws.fidelitytools.net/v2/api/persona/set](https://ws.fidelitytools.net/v2/api/persona/set)
-
-
-***Parámetros Obligatorios***
-***
+#### Módulo Segmentación
++ [Registrar / Actualizar Personas](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/set_personas.md)
