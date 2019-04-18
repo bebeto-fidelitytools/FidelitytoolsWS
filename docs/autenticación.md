@@ -34,7 +34,7 @@ curl -XGET 'https://ws.fidelitytools.net/v2/api/user/authenticate/usuario-123/pa
 }
 ```
 
-###### HTTP STATUS CODE: 200
+###### HTTP STATUS CODE: 200 (Ok)
 
 
 ***Credenciales inválidas***
@@ -49,5 +49,5 @@ curl -XGET 'https://ws.fidelitytools.net/v2/api/user/authenticate/usuario-123/pa
     ]
 }
 ```
-###### HTTP STATUS CODE: 401
+###### HTTP STATUS CODE: 401 (Unauthorized)
 
