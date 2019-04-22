@@ -2,31 +2,33 @@
 
 Permite agregar y/o actualizar una o más personas.
 
-##### Cuando es agregada una persona
 ---
+##### Cuando es agregada una persona
 Si la persona tiene los campos idPersona, idExterno, dni o email vacíos, el servicio web por defecto
 intentará registrar la persona sin realizar comprobación de su existencia previa ya que dichos campos se
 encuentran sin valor alguno de búsqueda.
 
-##### Cuando es actualizada una persona
 ---
-Si la persona tiene los campos idPersona, idExterno, dni y/o email con valores, el servicio web por
-defecto intentará actualizar la persona realizando la comprobación de su existencia previa mediante alguno
+##### Cuando es actualizada una persona
+Si la persona tiene los campos idPersona, idExterno, dni y/o email con valores, el servicio web intentará actualizar la persona realizando la comprobación de su existencia previa mediante alguno
 de los valores de los campos mencionados. Estos campos son llamados __*campos de comprobación de existencia*__ y se dividen en dos tipos: __*Por Defecto*__ y __*Requeridos*__.
 
 A su vez, los __*campos de comprobación requeridos*__ pueden ser complementados por los __*campos de comprobacion complementarios*__ que permiten una comprobacion de existencia más rigurosa sobre una persona a registrar o a actualizar.
 
+---
 ##### Campo de comprobación de existencia por defecto
----
-El campo idPersona es el campo de búsqueda por defecto. Es decir que el servicio web por defecto,
-si este campo se tiene valor, utiliza dicho campo para la búsqueda de una persona previamente a decidir si
-debe ser registrada o actualizada. El orden y prioridad de búsqueda es idPersona y luego los campos de
-comprobación por configuración. Por lo que primero el servicio web intentara obtener la persona mediante
-el valor del campo idPersona y, si el resultado obtenido es nulo, intentará obtenerla mediante los campos de
-comprobación por configuración.
 
-##### Campos de comprobación de existencia requeridos
+El campo idPersona es el campo de búsqueda por defecto. Es decir que el servicio web por defecto,
+si este campo tiene valor, lo utiliza para la búsqueda de una persona previamente a decidir si
+debe ser registrada o actualizada. 
+
+El orden y prioridad de búsqueda es idPersona y luego los campos de
+comprobación por configuración. Por lo que primero el servicio web intentara obtener la persona mediante
+el valor del campo idPersona y, si el resultado obtenido es nulo, intentará obtenerla mediante los __*campos de
+comprobación de existencia requeridos*__.
+
 ---
+##### Campos de comprobación de existencia requeridos
 
 Los campos de comprobación requeridos son:
 1. idExterno
@@ -38,14 +40,13 @@ En ese orden se realiza la búsqueda de la persona siempre y cuando los campos c
 Es decir que el servicio web, luego de no obtener la persona mediante el campo idPersona (porque este se
 encontraba vacío o porque no encontró dicha persona con el valor proporcionado), primero intentará
 obtener la persona mediante el campo idExterno (si este contiene un valor), luego intentará obtenerlo
-mediante el campo dni + email (si ambos contienen valores), luego por dni y por último mediante el campo
-email (si contiene un valor).
+mediante la combinación de valores de los campos dni + email (si ambos contienen valores), luego por dni (si contiene un valor) y por último mediante el campo email (si contiene un valor).
 
-##### Campos de comprobación de existencia complementarios
 ---
+##### Campos de comprobación de existencia complementarios
 
-Los campos de comprobación complementarios se acoplan a los campos de comprobación
-requeridos de orden 2,3 y 4, permitiendo agregar condiciones de búsqueda más específicas para la
+Los campos de comprobación de existencia complementarios se acoplan a los campos de comprobación de existencia 
+requeridos de orden 2, 3 y 4, permitiendo agregar condiciones de búsqueda más rigurosas para la
 comprobación de la existencia de una persona.
 
 Estos campos complementarios son propiedades de la clase Persona que por sí solas no pueden
@@ -78,8 +79,8 @@ Tanto los campos de comprobación requeridos como los complementarios deben esta
 configurados por parte de los administradores del sistema Fidelitytools ya que por defecto solo se encuentra
 activo el campo de comprobación por defecto idPersona.
 
-#### Propiedades de la clase persona
 ---
+#### Propiedades de la clase persona
 
 |Propiedad		     |Tipo      |Descripción                                    |Requerido |Formato      						 |
 |--------------------|----------|-----------------------------------------------|----------|-------------------------------------|
@@ -124,6 +125,7 @@ activo el campo de comprobación por defecto idPersona.
 |perfilesGenerales   | Array    | Perfiles generales de la persona				| No       | -			 						 |
 |camposPersonales	 | Array    | Campos personales de la persona				| No       | -			 						 |
 
+
 El campo ***tipoPers*** determina el tipo de persona a registrar, el tipo de persona puede ser persona o
 empresa. Si la persona a registrar tiene este campo vacío, por defecto, será cargada como una persona de
 tipo Persona.
@@ -141,3 +143,63 @@ Los campos de tipo fecha por defecto utilizan los siguientes formatos:
 * dd/MM/yyyy
 * d/MM/yyyy
 * dd/M/yyyy
+
+---
+### URL
+
+`https://ws.fidelitytools.net/v2/api/segmentacion/persona/set`
+
+---
+### Método
+
+POST
+
+---
+### Parámetros obligatorios
+
+##### Headers
+
+|Parámetro    |Requerido |Descripción                                   					  |
+|-------------|----------|--------------------------------------------------------------------|
+| key         | Si		 | Llave de acceso otorgada por los administradores de Fidelitytools. |
+| token       | Si		 | token generado mediante el endpoint [Generar token de acceso](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/autenticaci%C3%B3n.md). |
+
+##### Body
+
+```json
+[
+	{
+		"segmento": { "idSegmento": ABC123 },
+        "nombre": "Nombre de persona",
+        "apellido": "Apellido de persona",
+        "dni": 12345678,
+        "email": "email_1@email.com.ar",
+        "tipoPers": "persona",
+        "pref3": 351,
+        "movil": 6987654,
+        "observaciones": "Observaciones sobre la persona",
+        "perfilesGenerales": 
+        [
+        	{ "idPerfilGeneral": 123, "perfilGeneralValores": [ {"nombre": "pgv1"}, {"nombre": "pgv2"} ] }
+        ],
+        "camposPersonales":
+        [
+        	{ "idCampoPersonal": 456, "valor": "21-33536253-3" }
+        ]
+	}    
+]
+```
+
+---
+### Ejemplo
+
+```bash
+
+```
+
+---
+### Respuesta
+
+```json
+
+```
