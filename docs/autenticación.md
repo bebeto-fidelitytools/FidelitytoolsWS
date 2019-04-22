@@ -13,7 +13,7 @@ Obtiene el token de acceso usando usuario y contraseña otorgados por Fideliytoo
 GET
 
 ---
-### Parámetros
+### Parámetros obligatorios
 
 |Parámetro |Requerido |Descripción                 |Ejemplo         |
 |----------|----------|----------------------------|----------------|
