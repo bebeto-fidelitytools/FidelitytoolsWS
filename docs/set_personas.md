@@ -168,7 +168,7 @@ POST
 ```json
 [
 	{
-		"segmento": { "idSegmento": ABC123 },
+		"segmento": { "idSegmento": "ABC123" },
 		"nombre": "Nombre de persona",
 		"apellido": "Apellido de persona",
 		"dni": 12345678,
