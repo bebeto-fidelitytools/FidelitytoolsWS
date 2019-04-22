@@ -50,15 +50,14 @@ requeridos de orden 2, 3 y 4, permitiendo agregar condiciones de búsqueda más 
 comprobación de la existencia de una persona.
 
 Estos campos complementarios son propiedades de la clase Persona que por sí solas no pueden
-determinar la unicidad de la misma, pero al complementarse con los campos de comprobación
-requeridos generan una cualidad de verificación más rigurosa a diferencia de utilizar los campos de
-comprobación requeridos solamente.
+determinar la unicidad de la misma, pero al complementarse con los campos de comprobación de existencia
+requeridos generan una cualidad de verificación más rigurosa.
 
-Los campos de comprobación complementarios son: nombre, apellido, cp, fechaNac, localidad,
+Los campos de comprobación de existencia complementarios son: nombre, apellido, cp, fechaNac, localidad,
 provincia, país, barrio, empresa, nomFantasia y usuario.
 
-A diferencia de los campos de comprobación requeridos, los complementarios no tienen un orden
-de prioridad y mientras más campos complementarios existan más rigurosa será la condición de búsqueda
+A diferencia de los campos de comprobación de existencia requeridos, los complementarios no tienen un orden
+de prioridad y mientras más campos complementarios existan más rigurosa será la verificación de existencia
 de una persona.
 
 Por ejemplo, en base a la siguiente configuración preestablecida:
@@ -170,22 +169,22 @@ POST
 [
 	{
 		"segmento": { "idSegmento": ABC123 },
-        "nombre": "Nombre de persona",
-        "apellido": "Apellido de persona",
-        "dni": 12345678,
-        "email": "email_1@email.com.ar",
-        "tipoPers": "persona",
-        "pref3": 351,
-        "movil": 6987654,
-        "observaciones": "Observaciones sobre la persona",
-        "perfilesGenerales": 
-        [
-        	{ "idPerfilGeneral": 123, "perfilGeneralValores": [ {"nombre": "pgv1"}, {"nombre": "pgv2"} ] }
-        ],
-        "camposPersonales":
-        [
-        	{ "idCampoPersonal": 456, "valor": "21-33536253-3" }
-        ]
+		"nombre": "Nombre de persona",
+		"apellido": "Apellido de persona",
+		"dni": 12345678,
+		"email": "email_1@email.com.ar",
+		"tipoPers": "persona",
+		"pref3": 351,
+		"movil": 6987654,
+		"observaciones": "Observaciones sobre la persona",
+		"perfilesGenerales": 
+		[
+			{ "idPerfilGeneral": 123, "perfilGeneralValores": [ {"nombre": "pgv1"}, {"nombre": "pgv2"} ] }
+		],
+		"camposPersonales":
+		[
+			{ "idCampoPersonal": 456, "valor": "21-33536253-3" }
+		]
 	}    
 ]
 ```
