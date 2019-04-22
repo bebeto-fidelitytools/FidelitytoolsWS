@@ -1,17 +1,19 @@
-### Descripción:
+### Descripción
 
 Obtiene el token de acceso usando usuario y contraseña otorgados por Fideliytools.
 
 ---
-### URL:
+### URL
 
 `https://ws.fidelitytools.net/v2/api/user/authenticate/{username}/{password}`
 
 ---
-### Método: GET
+### Método
+
+GET
 
 ---
-### Parámetros:
+### Parámetros
 
 |Parámetro |Requerido |Descripción                 |Ejemplo         |
 |----------|----------|----------------------------|----------------|
@@ -19,13 +21,14 @@ Obtiene el token de acceso usando usuario y contraseña otorgados por Fideliytoo
 |password  |SI        |Contraseña de usuario       |password-123    |
 
 ---
-### Ejemplo:
+### Ejemplo
+
 ```bash
 curl -XGET 'https://ws.fidelitytools.net/v2/api/user/authenticate/usuario-123/password-123'
 ```
 
 ---
-### Respuestas:
+### Respuestas
 
 ***Credenciales válidas***
 
