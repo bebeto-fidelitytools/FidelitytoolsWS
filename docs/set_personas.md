@@ -81,42 +81,63 @@ activo el campo de comprobación por defecto idPersona.
 #### Propiedades de la clase persona
 ---
 
-|Propiedad    |Tipo      |Descripción                                   |Requerido |Formato      |
-|-------------|----------|----------------------------------------------|----------|-------------|
-|idPersona    | int      | Código identificador único					| No       | Nro. Entero |
-|idExterno    | string   | Código identificador único externo			| No       | -			 |
-|nombre       | string   | Nombre de la persona							| No       | -			 |
-|apellido     | string   | Apellido de la persona						| No       | -			 |
-|dni	      | int      | Código identificador único					| No       | Nro. Entero |
-|apellido     | string   | Apellido de la persona						| No       | -			 |
-|habilitado   | string   | Determina si se encuentra habilitada			| No       | -			 |
-|email	      | string   | Email de la persona							| No       | -			 |
-|email2	      | string   | Email alternativo de la persona				| No       | -			 |
-|fechaNac     | Datetime | Fecha de nacimiento							| No       | DD/MM/YYYY HH:MM:SS			 |
-|fechaAlta    | Datetime | Fecha de alta de la persona					| No       | DD/MM/YYYY HH:MM:SS			 |
-|fechaModificacion | Datetime | Fecha de modificación de la persona		| No       | DD/MM/YYYY HH:MM:SS			 |
-|codigoPais   | string   | Código teléfonico del país					| No       | -			 |
-|telefono     | int      | Telefono										| No       | Nro. Entero |
-|telefono2    | int      | Telefono alternativo							| No       | Nro. Entero |
-|telefono3    | string   | Teléfono alternativo con caracteres			| No       | -           |
-|movil        | int      | Teléfono móvil								| No       | Nro. Entero |
-|pref1		  | int      | Prefijo del campo telefono					| No       | Nro. Entero |
-|pref2		  | int      | Prefijo del campo telefono2					| No       | Nro. Entero |
-|pref3		  | int      | Prefijo del campo movil						| No       | Nro. Entero |
-|direccion    | string   | Dirección de la persona						| No       | -			 |
-|numero	      | string   | Número de calle de dirección de la persona	| No       | -			 |
-|barrio       | string   | Barrio de la persona							| No       | -			 |
-|pais	      | string   | País de la persona							| No       | -			 |
-|provincia    | string   | Provincia de la persona						| No       | -			 |
-|localidad    | string   | Localidad de la persona						| No       | -			 |
-|nomFantasia  | string   | Nombre de fantasía de la persona				| No       | -			 |
-|dpto	      | string   | Apellido de la persona						| No       | -			 |
-|piso	      | string   | Apellido de la persona						| No       | -			 |
-|cp		      | string   | Apellido de la persona						| No       | -			 |
-|apellido     | string   | Apellido de la persona						| No       | -			 |
-|apellido     | string   | Apellido de la persona						| No       | -			 |
-|apellido     | string   | Apellido de la persona						| No       | -			 |
-|apellido     | string   | Apellido de la persona						| No       | -			 |
-|apellido     | string   | Apellido de la persona						| No       | -			 |
-|apellido     | string   | Apellido de la persona						| No       | -			 |
-|apellido     | string   | Apellido de la persona						| No       | -			 |
+|Propiedad		     |Tipo      |Descripción                                    |Requerido |Formato      						 |
+|--------------------|----------|-----------------------------------------------|----------|-------------------------------------|
+|idPersona    		 | int      | Código identificador único					| No       | Nro. Entero 						 |
+|idExterno    		 | string   | Código identificador único externo			| No       | -			 						 |
+|segmento     		 | Object   | Segmento al cúal la persona pertenece			| Si       | Clase segmento						 |
+|nombre       		 | string   | Nombre de la persona							| No       | -			 						 |
+|apellido     		 | string   | Apellido de la persona						| No       | -			 						 |
+|dni	      		 | int      | Código identificador único					| No       | Nro. Entero 						 |
+|apellido     		 | string   | Apellido de la persona						| No       | -			 						 |
+|habilitado   		 | string   | Determina si se encuentra habilitada			| No       | -			 						 |
+|email	      		 | string   | Email de la persona							| No       | email		 						 |
+|email2	      		 | string   | Email alternativo de la persona				| No       | email		 						 |
+|fechaNac     		 | Datetime | Fecha de nacimiento							| No       | DD/MM/YYYY HH:MM:SS			 	 |
+|fechaAlta    		 | Datetime | Fecha de alta de la persona					| No       | DD/MM/YYYY HH:MM:SS			 	 |
+|fechaModificacion 	 | Datetime | Fecha de modificación de la persona			| No       | DD/MM/YYYY HH:MM:SS			 	 |
+|codigoPais   		 | string   | Código teléfonico del país					| No       | -			 						 |
+|telefono     		 | int      | Telefono										| No       | Nro. Entero 						 |
+|telefono2    		 | int      | Telefono alternativo							| No       | Nro. Entero 						 |
+|telefono3    		 | string   | Teléfono alternativo con caracteres			| No       | -           						 |
+|movil        		 | int      | Teléfono móvil								| No       | Nro. Entero 						 |
+|pref1		  		 | int      | Prefijo del campo telefono					| No       | Nro. Entero 						 |
+|pref2		  		 | int      | Prefijo del campo telefono2					| No       | Nro. Entero 						 |
+|pref3		  		 | int      | Prefijo del campo movil						| No       | Nro. Entero 						 |
+|direccion    		 | string   | Dirección de la persona						| No       | -			 						 |
+|numero	      		 | string   | Número de calle de dirección de la persona	| No       | -			 						 |
+|barrio       		 | string   | Barrio de la persona							| No       | -			 						 |
+|pais	      		 | string   | País de la persona							| No       | -			 						 |
+|provincia    		 | string   | Provincia de la persona						| No       | -			 						 |
+|localidad    		 | string   | Localidad de la persona						| No       | -			 						 |
+|nomFantasia  		 | string   | Nombre de fantasía de la persona				| No       | -			 						 |
+|dpto	      		 | string   | Departamento de la persona					| No       | -			 						 |
+|piso	      		 | string   | Piso de la persona							| No       | -			 						 |
+|cp		      		 | string   | Código postal de la persona					| No       | -			 						 |
+|observaciones		 | string   | Observaciones sobre la persona				| No       | -			 						 |
+|sexo	      		 | string   | Identidad de género de la persona				| No       | M (masc) - F (fem) - I	(indefinido) |
+|empresa      		 | string   | Empresa de la persona							| No       | -			 						 |
+|tipoPers     		 | string   | tipo de persona								| No       | persona - empresa					 |
+|usuario      		 | string   | Cuenta de usuario de la persona				| No       | -			 						 |
+|clave        		 | string   | Clave de cuenta de usuario de la persona		| No       | -			 						 |
+|personaDep   		 | string   | Persona dependiente							| No       | -			 						 |
+|perfilesGenerales   | Array    | Perfiles generales de la persona				| No       | -			 						 |
+|camposPersonales	 | Array    | Campos personales de la persona				| No       | -			 						 |
+
+El campo ***tipoPers*** determina el tipo de persona a registrar, el tipo de persona puede ser persona o
+empresa. Si la persona a registrar tiene este campo vacío, por defecto, será cargada como una persona de
+tipo Persona.
+
+El campo ***personaDep*** sirve para determinar la dependencia de la persona a registrar sobre otra
+persona previamente registrada. La propiedad personaDep esta deshabilitada para asociar mediante el
+servicio web de Fidelitytools, es decir que las asociaciones entre personas se realizan desde el Sistema
+Fidelitytools. Esta propiedad es utilizada en la función de Obtener Personas (detallada posteriormente)
+cuando la persona está asociada a otra persona.
+
+Los campos de tipo fecha por defecto utilizan los siguientes formatos:
+* dd/MM/yyyy HH:MM:SS
+* d/MM/yyyy HH:MM:SS
+* dd/M/yyyy HH:MM:SS
+* dd/MM/yyyy
+* d/MM/yyyy
+* dd/M/yyyy
