@@ -17,6 +17,10 @@ ___
 |----------|----------|----------------------------|
 | key         | Si		 | Llave de acceso otorgada por los administradores de Fidelitytools. | 
 | Authorization       | Si		 | token generado mediante el endpoint [Generar token de acceso](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/autenticaci%C3%B3n.md). | 
+
+##### URL
+|Parámetro |Requerido |Descripción                 |
+|----------|----------|----------------------------|
 | idSegmento | Si | Id del segmento del que se desea saber la cantidad de personas que contiene. | 
 
 ___
