@@ -158,10 +158,10 @@ POST
 
 ##### Headers
 
-|Parámetro    |Requerido |Descripción                                   					  |
-|-------------|----------|--------------------------------------------------------------------|
-| key         | Si		 | Llave de acceso otorgada por los administradores de Fidelitytools. |
-| token       | Si		 | token generado mediante el endpoint [Generar token de acceso](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/autenticaci%C3%B3n.md). |
+|Parámetro    	       |Requerido |Descripción                                   		       |
+|----------------------|----------|--------------------------------------------------------------------|
+| key      	       | Si	  | Llave de acceso otorgada por los administradores de Fidelitytools. |
+| Authentication       | Si	  | token generado mediante el endpoint [Generar token de acceso](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/autenticaci%C3%B3n.md). |
 
 ##### Body
 
