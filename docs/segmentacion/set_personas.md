@@ -193,12 +193,25 @@ POST
 ### Ejemplo
 
 ```bash
-
+curl -X POST 
+-H "Content-Type: application/json" 
+-H "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6InVzZXJBY2Nlc3NDb25maWciLCJuYmYiOjE1NTYxMjI1NzYsImV4cCI6MTU1NjIwODk3NiwiaWF0IjoxNTU2MTIyNTc2LCJpc3MiOiJodHRwczovL3dzLmZpZGVsaXR5dG9vbHMubmV0L3YyIiwiYXVkIjoiaHR0cHM6Ly93cy5maWRlbGl0eXRvb2xzLm5ldC92MiJ9.lIY6hvvs8kjzAblEQzxkRcj-tVQOJ5Jmkh_ynmeLAe4" 
+-H "key: 5c2e343fdad07d2b94e184d4" 
+-d "[{ \"segmento\": { \"idSegmento\": \"NjA2NA\" }, \"dni\": \"33437253\", \"email\":\"bebeto@fidelitytools.com\", \"habilitado\":\"S\", \"nombre\":\"Bebeto\", \"provincia\": \"Cordoba\", \"tipoPers\":\"persona\" }]" 
+https://ws.fidelitytools.net/v2/api/segmentacion/persona/set
 ```
 
 ---
 ### Respuesta
 
 ```json
+{
+  "mensajes": [
+    {
+      "estado": true,
+      "respuesta": "Persona: idPersona: 7288047 - Segmento: idSegmento: NjA2NA - Nombre: Bebeto - D.N.I: 33437253 - Agregada exitosamente"
+    }
+  ]
+}
 
 ```
