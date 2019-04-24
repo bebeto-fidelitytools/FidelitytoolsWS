@@ -203,7 +203,7 @@ https://ws.fidelitytools.net/v2/api/segmentacion/persona/set
 
 ---
 ### Respuesta
-
+***Respuesta exitosa***
 ```json
 {
   "mensajes": [
@@ -215,3 +215,19 @@ https://ws.fidelitytools.net/v2/api/segmentacion/persona/set
 }
 
 ```
+
+##### HTTP STATUS CODE: 200 (Ok)
+
+***Respuesta inválida***
+```json
+{
+    "mensajes": [
+        {
+            "respuesta": "Llave de acceso vacía.",
+            "estado": false
+        }
+    ]
+}
+```
+
+##### HTTP STATUS CODE: 400 (BadRequest)
