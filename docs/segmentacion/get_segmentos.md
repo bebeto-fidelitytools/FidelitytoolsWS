@@ -30,7 +30,7 @@ https://ws.fidelitytools.net/v2/api/segmentacion/segmento/get
 ```
 ___
 ### Respuestas
-***Respuesta exitosa***
+***Petición exitosa***
 ```json
 {
     "segmentos": [
@@ -51,7 +51,7 @@ ___
 
 ##### HTTP STATUS CODE: 200 (Ok)
 
-***Respuesta inválida***
+***Petición inválida***
 ```json
 {
     "mensajes": [
