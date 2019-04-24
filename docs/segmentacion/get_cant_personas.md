@@ -34,7 +34,7 @@ https://ws.fidelitytools.net/v2//api/segmentacion/persona/getCantPersonas/MYc5M5
 ```
 ___
 ### Respuestas
-***Credenciales válidas***
+***Petición exitosa***
 ```json
 {
     "paginador": {
@@ -44,7 +44,7 @@ ___
 ```
 ##### HTTP STATUS CODE: 200(Ok)
 
-***Credenciales inválidas***
+***Petición inválida***
 ```json
 {
     "mensajes": [
