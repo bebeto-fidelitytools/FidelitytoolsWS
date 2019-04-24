@@ -49,7 +49,7 @@ ___
 }
 ```
 
-##### HTTP STATUS CODE: 200(Ok)
+##### HTTP STATUS CODE: 200 (Ok)
 
 ***Respuesta inválida***
 ```json
@@ -63,5 +63,5 @@ ___
 }
 ```
 
-##### HTTP STATUS CODE: 400(BadRequest)
+##### HTTP STATUS CODE: 400 (BadRequest)
  
