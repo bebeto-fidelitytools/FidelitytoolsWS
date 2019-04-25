@@ -45,7 +45,7 @@ curl -XGET
 -H "Content-Type: application/json" 
 -H "Authorization: Bearer eeyJhbGciOiJIUzI1NiIsInR5cCI6IkbmlxdWVfbmFtZSI6InVzZXJb25maWciLCJuYmYiOjE1NTYxMTk0MNjIwNTgwNywiaWF0IjoxNTU2MTE5NDA3LCJpczovL3dzLmZpZGVsaXR5dG9vbHMubmV0L3YyIiwiYXVkIjoiaHR0cHM6Ly93cy5maWRlbGl0eXRvb2xzLm5ldC92MiJ9RDDpMHEB4SsmY0j87OcS5mbxe2XxSAY" 
 -H "key: 5c2e343fdaddsb94e18fff" 
-"http://localhost:12804/api/segmentacion/persona/getPersonas/Mzc4Mg/0/100?fechaAltaDesde=01/01/2018&fechaAltaHasta=01/01/2019&fechaModificacionDesde=01/01/2018&fechaModificacionHasta=01/01/2020"
+"https://ws.fidelitytools.net/v2/api/segmentacion/persona/getPersonas/Mzc4Mg/0/100?fechaAltaDesde=01/01/2018&fechaAltaHasta=01/01/2019&fechaModificacionDesde=01/01/2018&fechaModificacionHasta=01/01/2020"
 ```
 ___
 ### Respuestas
