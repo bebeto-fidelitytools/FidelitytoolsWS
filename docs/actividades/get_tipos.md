@@ -3,7 +3,7 @@ Esta función lo que permite es obtener la información básica relacionada a lo
 ___
 
 ### URL
-` https://ws.fidelitytools.net/v2/api/actividad/gettipos `
+` https://ws.fidelitytools.net/v2/api/actividades/actividad/gettipos `
 ___
 
 ### Método
@@ -25,7 +25,7 @@ curl -XGET
 -H "Content-Type: application/json" 
 -H "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkbmlxdWVfbmFtZSI6InVzZXJb25maWciLCJuYmYiOjE1NTYxMTk0MNjIwNTgwNywiaWF0IjoxNTU2MTE5NDA3LCJpczovL3dzLmZpZGVsaXR5dG9vbHMubmV0L3YyIiwiYXVkIjoiaHa2U2asdasdy5maWRlbGl0eXRvb2xzLm5ldC92MiJ9RDDpMHEB4SsmY0j87OcS5mbxe2XxSAY" 
 -H "key: 5c2e343fdaddsb94e18fff" 
-http://localhost:12804/api/actividades/actividad/gettipos
+https://ws.fidelitytools.net/v2/api/actividades/actividad/gettipos
 ```
 ___
 ### Respuestas
