@@ -30,7 +30,7 @@ curl -XGET
 -H "Content-Type: application/json" 
 -H "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkeyJ1bmltZSI6InVzZXJBY2Nlc3NDb25maWciLCJuYmYiOjE1NTYxMTk0MDcU1NjIwNTgwNywiaWF0IjoxNDA3LCJpc3MizovL3dzLmZpZGVsaXR5dG9vbHMubmV0L3YyIiwiYXVkIjoiaHR0cHM6Ly93cy5maWRlbGl0eXRvb2xzLm5ldC92MiJ9.RDDpMHEB4SsmY0j87OcS5mbxeBWbyKqg2XxSAY" 
 -H "key: 5c2e343fda123ars1234" 
-https://ws.fidelitytools.net/v2//api/segmentacion/persona/getCantPersonas/MYc5M5
+https://ws.fidelitytools.net/v2/api/segmentacion/persona/getCantPersonas/MYc5M5
 ```
 ___
 ### Respuestas
