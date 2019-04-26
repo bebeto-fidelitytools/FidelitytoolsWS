@@ -3,7 +3,7 @@ Permite obtener todos los perfiles generales registrados.
 ___
 
 ### URL
-` https://ws.fidelitytools.net/v2/api/perfilgeneral/get `
+` https://ws.fidelitytools.net/v2/api/segmentacion/perfilgeneral/get `
 ___
 
 ### Método
