@@ -46,7 +46,7 @@ ___
     ]
 }
 ```
-Si desea comprobar que realmente el catalogo fue eliminado por completo debe utilizar el metodo [get_catalogo](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/segmentacion/get_catalogo.md) de Fidelitytools.
+Si desea comprobar que realmente el catalogo fue eliminado por completo debe utilizar el metodo [get_catalogo](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/catalogos/get_catalogo.md) de Fidelitytools.
 
 ##### HTTP STATUS CODE: 200 (Ok)
 
