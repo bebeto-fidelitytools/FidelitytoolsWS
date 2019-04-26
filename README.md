@@ -31,4 +31,4 @@ realizar varias acciones.
 #### Módulo Segmentación
 
 ##### Personas
-* [Registrar / Actualizar Personas](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/set_personas.md)
+* [Registrar / Actualizar Personas](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/segmentacion/set_personas.md)
