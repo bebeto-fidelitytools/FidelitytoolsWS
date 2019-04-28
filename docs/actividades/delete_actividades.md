@@ -22,8 +22,8 @@ ___
 ##### Body
 ```json
 [
-	  {id:985561, actividadTipo: {id: "52eWX1" } },
-    {idExterno:"77-TR-001", actividadTipo: {id: "52eWX1" } }
+	{"id":985561, "actividadTipo": {"id": "52eWX1" } },
+	{"idExterno":"77-TR-001", "actividadTipo": {"id": "52eWX1" } }
 ]
 ```
 Como se detalla, este metodo recibe una matriz o colección de
@@ -50,8 +50,8 @@ ___
 ```json
 {
 	"mensajes":[
-    	{ "respuesta": "Actividad: id: 985561 - Eliminada exitosamente", estado:true },
-    	{ "respuesta": "Actividad: idExterno: "77-TR-001" - Eliminada exitosamente", estado:true }
+    	{ "respuesta": "Actividad: id: 985561 - Eliminada exitosamente", "estado":true },
+    	{ "respuesta": "Actividad: idExterno: "77-TR-001" - Eliminada exitosamente", "estado":true }
     ]
 }
 ```
@@ -62,7 +62,7 @@ ___
 ```json
 {
 	"mensajes":[
-    	{ "respuesta": "Error: Acceso denegado", estado:false }
+    	{ "respuesta": "Error: Acceso denegado", "estado":false }
     ]
 }
 ```
