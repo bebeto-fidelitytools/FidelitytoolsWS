@@ -80,16 +80,4 @@ ___
 Por cada elemento de la matriz pedidos hay un objeto pedido y, a su vez, cada objeto pedido contiene sus propiedades incluidas el objeto persona (que contiene todos los datos del cliente asociado al pedido) y la matriz productosxPedido que contiene uno o más productos asociados al pedido.
 ##### HTTP STATUS CODE: 200 (Ok)
 
-***Petición inválida***
-```json
-{
-    "mensajes": [
-        {
-            "respuesta": "No existen resultados de búsqueda",
-            "estado": false
-        }
-    ]
-}
-```
-
-##### HTTP STATUS CODE: 400 (BadRequest)
+***Peticiones inválidas***: [bad_request](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/ecommerce/bad_request.md)
