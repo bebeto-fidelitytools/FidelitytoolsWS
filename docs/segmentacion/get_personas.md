@@ -107,7 +107,7 @@ varias funciones como por ejemplo:
 - La función [set_personas](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/segmentacion/set_personas.md), donde cada persona a actualizar tiene su valor en el campo idPersona.
 - La función [get_persona](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/segmentacion/get_persona.md) (más adelante descripta) que sirve para obtener las matrices perfiles,
 preferencias, perfilesGenerales y camposPersonales de la persona, ya que en esta función
-([get_personas](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/segmentacion/get_personas.md) estas matrices están exeptuadas de carga para que la comunicación sea más ágil.
+([get_personas](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/segmentacion/get_personas.md)) estas matrices están exeptuadas de carga para que la comunicación sea más ágil.
 Es decir, que para obtener estas matrices se debe consultar la función wsGetPersona.
 Otro punto importante de esta función es el objeto Paginador que, como detalla la imagen, retorna
 el total de personas del segmento consultado (total = 1), el offset y limit. Cabe destacar que el valor máximo

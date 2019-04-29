@@ -1,5 +1,5 @@
 ### Descripcion
-Esta función lo que permite es obtener la información básica relacionada a los tipos de actividades asociados al valor del parámetro key. En base a esta información se puede obtener la configuración de la estructura de datos de un determinado tipo de actividad ([get_configuracion_actividad_tipo](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/get_configuracion_actividad_tipo.md)) con respecto a: perfiles generales de actividad, campos personales de actividad y etapas de actividad.
+Esta función lo que permite es obtener la información básica relacionada a los tipos de actividades asociados al valor del parámetro key. En base a esta información se puede obtener la configuración de la estructura de datos de un determinado tipo de actividad ([get_configuracion_tipo](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/get_configuracion_actividad_tipo.md)) con respecto a: perfiles generales de actividad, campos personales de actividad y etapas de actividad.
 ___
 
 ### URL
