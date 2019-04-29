@@ -24,37 +24,37 @@ ___
 ```json
 [
       {
-            idPersona:"1015454",
-            segmento:{idSegmento:"5X5Oi1"},
-            actividades:[{
-           		  idExterno:"777-8BDR",
-                  estado:{id : 1},
-                  nombre:"Pago Compra N.789982",
-                  estado:{id:1,nombre:"Habilitado"},
-                  ActividadTipo:{id:"111"},
-                  perfilesGenerales:
+            "idPersona":"1015454",
+            "segmento":{"idSegmento":"5X5Oi1"},
+            "actividades":[{
+           	  "idExterno":"777-8BDR",
+                  "estado":{"id" : 1},
+                  "nombre":"Pago Compra N.789982",
+                  "estado":{"id":1,"nombre":"Habilitado"},
+                  "ActividadTipo":{"id":"111"},
+                  "perfilesGenerales":
                   [{
-                    	id:66, nombre: "TipoCompra", 
-                        pgActividadValores: [ {id:0, nombre:"Contado"} ]
+                    	"id":66, "nombre": "TipoCompra", 
+                        "pgActividadValores": [ {"id":0, "nombre":"Contado"} ]
                     }],
-                  camposPersonales:
-                  [ { cpActividad: {id:46, nombre:"Codigo"}, valor:"789982"} ],
-                  etapas:
-                  [ {id:1, nombre:"Pendiente"} ]
+                  "camposPersonales":
+                  [ { "cpActividad": {"id":46, "nombre":"Codigo"}, "valor":"789982"} ],
+                  "etapas":
+                  [ {"id":1, "nombre":"Pendiente"} ]
             },
             {
-                  nombre:"Pago Compra N.101982",
-                  estado:{id:1,nombre:"Habilitado"},
-                  ActividadTipo:{id:"111"},
+                  "nombre":"Pago Compra N.101982",
+                  "estado":{"id":1,"nombre":"Habilitado"},
+                  "ActividadTipo":{"id":"111"},
             }]
         },
         {
-            idPersona:"10301056",
-            segmento:{idSegmento:"5X5Oi1"},
-            actividades:[{
-                nombre:"Pago Compra N.233982",
-                estado:{id:1,nombre:"Habilitado"},
-                ActividadTipo:{id:"111"},
+            "idPersona":"10301056",
+            "segmento":{"idSegmento":"5X5Oi1"},
+            "actividades":[{
+                "nombre":"Pago Compra N.233982",
+                "estado":{"id":1,"nombre":"Habilitado"},
+                "ActividadTipo":{"id":"111"},
             }]
 		}
 ]
