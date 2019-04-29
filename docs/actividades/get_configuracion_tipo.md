@@ -110,17 +110,5 @@ El tipo de actividad obtenido contiene información relacionada a:
 - Etapas de actividad mediante la propiedad actividadTipoEtapa.
 ##### HTTP STATUS CODE: 200 (Ok)
 
-***Petición inválida***
-```json
-{
-    "mensajes": [
-        {
-            "respuesta": "Error: Acceso denegado",
-            "estado": false
-        }
-    ]
-}
-```
-
-##### HTTP STATUS CODE: 400 (BadRequest)
+***Peticiones inválidas***: [bad_request](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/actividades/bad_request.md)
  
