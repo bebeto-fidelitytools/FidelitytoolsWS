@@ -51,7 +51,7 @@ ___
 {
 	"mensajes":[
     	{ "respuesta": "Actividad: id: 985561 - Eliminada exitosamente", "estado":true },
-    	{ "respuesta": "Actividad: idExterno: "77-TR-001" - Eliminada exitosamente", "estado":true }
+    	{ "respuesta": "Actividad: idExterno: COD001 - Eliminada exitosamente", "estado":true }
     ]
 }
 ```
