@@ -54,7 +54,25 @@ ___
             "provincia": "Córdoba",
             "habilitado": "S",
             "email": "apozada@gmail.com",
-            "cp": "5000"
+            "cp": "5000",
+            "perfilesGenerales":[
+            	"idPerfilGeneral":1306, "nombre":"P - Formas de Pago","tipoPerfil": "Múltiple",
+            	"perfilGeneralValores": [
+                    {"idPerfilGeneralValor": 30870,"nombre": "MASTERCARD"},
+                    {"idPerfilGeneralValor": 30871,"nombre": "VISA CREDITO"}
+                ]
+            ],
+            "camposPersonales":[
+            	{
+                    "idCampoPersonal": 1542,
+                    "nombre": "CUIL-CUIT",
+                    "valor": "27-4451211-3",
+                    "segmentos": [
+                    	{"idSegmento": "NTM4OA","nombre": "Clientes"},
+                      	{"idSegmento": "Mzc4Mg","nombre": "Fidelity"}
+                    ]
+                }  
+            ]
         }
     ]
 }
