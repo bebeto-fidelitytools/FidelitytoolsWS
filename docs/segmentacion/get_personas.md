@@ -113,16 +113,4 @@ Otro punto importante de esta función es el objeto Paginador que, como detalla 
 el total de personas del segmento consultado (total = 1), el offset y limit. Cabe destacar que el valor máximo
 permitido del campo limit es 100, esto significa que se pueden obtener hasta 100 personas por consulta.
 
-***Petición inválida***
-```json
-{
-    "mensajes": [
-        {
-            "respuesta": "Error: fechaModificacionDesde o fechaModificacionHasta vacíos",
-            "estado": false
-        }
-    ]
-}
-```
-
-##### HTTP STATUS CODE: 400 (BadRequest)
+***Peticiones inválidas***: [bad_request](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/segmentacion/bad_request.md)
