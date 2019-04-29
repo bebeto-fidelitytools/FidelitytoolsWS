@@ -32,3 +32,35 @@ realizar varias acciones.
 
 ##### Personas
 * [Registrar / Actualizar Personas](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/segmentacion/set_personas.md)
+* [Obtener Persona](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/segmentacion/get_persona.md)
+* [Obtener Personas](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/segmentacion/get_personas.md)
+* [Obtener Cantidad de Personas](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/segmentacion/get_cant_personas.md)
+##### Perfiles Generales
+* [Obtener Perfiles Generales](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/segmentacion/get_perfil_general.md)
+##### Campos Personales
+* [Obtener Campos Personales](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/segmentacion/get_campo_personal.md)
+
+#### Módulo Ecommerce
+
+##### Pedidos
+* [Obtener Pedidos](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/ecommerce/get_pedidos.md)
+* [Obtener Estados](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/ecommerce/get_estados.md)
+* [Obtener Tipos](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/ecommerce/get_tipos.md)
+* [Actualizar Estados de Pedidos](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/ecommerce/set_estados.md)
+
+#### Módulo Catalogos
+
+##### Catalogos
+* [Registrar/ Actualizar Catalogos](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/catalogos/set_catalogos.md)
+* [Eliminar Catalogo](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/catalogos/delete_catalogo.md)
+* [Obtener Catalogos](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/catalogos/get_catalogos.md)
+* [Obtener Catalogo](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/catalogos/get_catalogo.md)
+* [Actualizar Catalogo(Precio y Stock)](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/catalogos/set_precio_stock_x_productos.md)
+
+#### Módulo Actividades
+
+##### Actividades
+* [Registrar/ Actualizar Actividades](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/actividades/set_actividades.md)
+* [Eliminar Actividades](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/tree/master/docs/actividades/delete_actividades.md)
+* [Obtener Configuracion de un Tipo de Actividad](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/actividades/get_configuracion_tipo.md)
+* [Obtener Tipos de Actividades](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/actividades/get_tipos.md)
