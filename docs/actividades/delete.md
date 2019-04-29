@@ -58,13 +58,5 @@ ___
 
 ##### HTTP STATUS CODE: 200 (Ok)
 
-***Petición inválida***
-```json
-{
-	"mensajes":[
-    	{ "respuesta": "Error: Acceso denegado", "estado":false }
-    ]
-}
-```
+***Peticiones inválidas***: [bad_request](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/actividades/bad_request.md)
 
-##### HTTP STATUS CODE: 400 (BadRequest)
