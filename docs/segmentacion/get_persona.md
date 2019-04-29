@@ -56,11 +56,13 @@ ___
             "email": "apozada@gmail.com",
             "cp": "5000",
             "perfilesGenerales":[
-            	"idPerfilGeneral":1306, "nombre":"P - Formas de Pago","tipoPerfil": "Múltiple",
-            	"perfilGeneralValores": [
-                    {"idPerfilGeneralValor": 30870,"nombre": "MASTERCARD"},
-                    {"idPerfilGeneralValor": 30871,"nombre": "VISA CREDITO"}
-                ]
+                {
+                    "idPerfilGeneral":1306, "nombre":"P - Formas de Pago","tipoPerfil": "Múltiple",
+                    "perfilGeneralValores": [
+                        {"idPerfilGeneralValor": 30870,"nombre": "MASTERCARD"},
+                        {"idPerfilGeneralValor": 30871,"nombre": "VISA CREDITO"}
+                    ]
+                }
             ],
             "camposPersonales":[
             	{
