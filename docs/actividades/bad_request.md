@@ -16,9 +16,8 @@ ___
     ]
 }
 ```
-Metodo: [set_actividades](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/actividades/set.md), [delete_actividades](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/actividades/delete.md) 
-
 ##### HTTP STATUS CODE: 400 (BadRequest)
+Metodo: [set_actividades](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/actividades/set.md), [delete_actividades](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/actividades/delete.md) 
 ___
 #### Parámetro idTipo vacío
 ```json
