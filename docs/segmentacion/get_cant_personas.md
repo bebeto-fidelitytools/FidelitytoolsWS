@@ -44,16 +44,4 @@ ___
 ```
 ##### HTTP STATUS CODE: 200 (Ok)
 
-***Petición inválida***
-```json
-{
-    "mensajes": [
-        {
-            "respuesta": "Llave de acceso inválida.",
-            "estado": false
-        }
-    ]
-}
-```
-
-##### HTTP STATUS CODE: 400 (BadRequest)
+***Peticiones inválidas***: [bad_request](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/segmentacion/bad_request.md)
