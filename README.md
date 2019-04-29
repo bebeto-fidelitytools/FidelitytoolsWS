@@ -10,8 +10,8 @@ detallada sobre el entorno gestionado.
 
 Para utilizar los servicios web de Fidelitytools es necesario contar con:
 
-* Contar con las credenciales de autenticación y generación de tokens de acceso provista por los Administradores de Fidelitytools.
-* Contar con la llave de acceso a los servicios web provista por los Administradores de Fidelitytools.
+* Credenciales de autenticación y generación de tokens de acceso provista por los Administradores de Fidelitytools.
+* Llave de acceso a los servicios web provista por los Administradores de Fidelitytools.
 
 ## Reglas de uso
 
