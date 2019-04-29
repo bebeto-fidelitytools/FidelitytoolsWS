@@ -19,8 +19,6 @@ ___
 ```
 ##### HTTP STATUS CODE: 400 (BadRequest)
 Metodos: [get_catalogo](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/catalogos/get_catalogo.md), [delete_catalogo](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/catalogos/delete.md), [set_catalogos](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/catalogos/set.md)
-
-Esta respuesta ocurrirá cuando no se especifique el parametro requerido idCatalogo.
 ___
 #### Lista de productos vacia
 ```json
@@ -35,5 +33,3 @@ ___
 ```
 ##### HTTP STATUS CODE: 400 (BadRequest)
 Metodos: [set_catalogos](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/catalogos/set.md), [set_precio_stock_x_productos](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/catalogos/set_precio_stock_x_productos.md)
-
-La lista de productos a actualizar o registrar no puede estar vacia.
