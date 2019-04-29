@@ -94,16 +94,4 @@ mensaje puede detallar el éxito o error del registro.
 
 ##### HTTP STATUS CODE: 200 (Ok)
 
-***Petición inválida***
-```json
-{
-    "mensajes": [
-        {
-            "respuesta": "Error: Parámetro idCatalogo vacío",
-            "estado": true
-        }
-    ]
-}
-```
-
-##### HTTP STATUS CODE: 400 (BadRequest)
+***Peticiones inválidas***: [bad_request](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/catalogos/bad_request.md)
