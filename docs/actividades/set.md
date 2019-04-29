@@ -127,19 +127,5 @@ ___
 
 ##### HTTP STATUS CODE: 200 (Ok)
 
-***Petición inválida***
-```json
-{
-    "mensajes": [
-        {
-            "respuesta": "Error: coleccion de personas vacia.",
-            "estado": false
-        }
-    ]
-}
-```
-La matriz mensajes cargada con uno o más objetos de tipo mensaje detallando la respuesta
-correspondiente.
-
-##### HTTP STATUS CODE: 400 (BadRequest)
+***Peticiones inválidas***: [bad_request](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/actividades/bad_request.md)
  
