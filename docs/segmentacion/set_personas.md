@@ -218,16 +218,4 @@ https://ws.fidelitytools.net/v2/api/segmentacion/persona/set
 
 ##### HTTP STATUS CODE: 200 (Ok)
 
-***Respuesta inválida***
-```json
-{
-    "mensajes": [
-        {
-            "respuesta": "Llave de acceso vacía.",
-            "estado": false
-        }
-    ]
-}
-```
-
-##### HTTP STATUS CODE: 400 (BadRequest)
+***Peticiones inválidas***: [bad_request](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/segmentacion/bad_request.md)
