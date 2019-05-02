@@ -28,7 +28,7 @@ realizar varias acciones.
 #### Autenticación
 + [Generar token de acceso](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/autenticaci%C3%B3n.md)
 
-#### Módulo Segmentación
+#### Módulo Segmentación ([Descripcion general](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/segmentacion/descripcion_general.md))
 
 ##### Personas
 * [Registrar / Actualizar Personas](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/segmentacion/set_personas.md)
@@ -40,7 +40,7 @@ realizar varias acciones.
 ##### Campos Personales
 * [Obtener Campos Personales](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/segmentacion/get_campo_personal.md)
 
-#### Módulo Ecommerce
+#### Módulo Ecommerce ([Descripcion general](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/ecommerce/descripcion_general.md))
 
 ##### Pedidos
 * [Obtener Pedidos](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/ecommerce/get_pedidos.md)
@@ -48,7 +48,7 @@ realizar varias acciones.
 * [Obtener Tipos](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/ecommerce/get_tipos.md)
 * [Actualizar Estados de Pedidos](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/ecommerce/set_estados.md)
 
-#### Módulo Catalogos
+#### Módulo Catalogos ([Descripcion general](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/catalogos/descripcion_general.md))
 
 ##### Catalogos
 * [Registrar/ Actualizar Catalogos](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/catalogos/set.md)
@@ -57,7 +57,7 @@ realizar varias acciones.
 * [Obtener Catalogo](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/catalogos/get_catalogo.md)
 * [Actualizar Catalogo(Precio y Stock)](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/catalogos/set_precio_stock_x_productos.md)
 
-#### Módulo Actividades
+#### Módulo Actividades ([Descripcion general](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/actividades/descripcion_general.md))
 
 ##### Actividades
 * [Registrar/ Actualizar Actividades](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/actividades/set.md)
