@@ -71,7 +71,7 @@ información ajustándose con mayor eficacia a las necesidades de los distintos 
 El siguiente diagrama de clases detalla solo las clases intervinientes en el módulo de actividades.
 Existen otras clases, que intervienen en otros módulos y para este caso quedan descartadas de descripción.
 
-![Diagrama de clases Actividades.](https://drive.google.com/uc?export=view&id=1MhIkPIRIS4qH-dSiWZ3oz_q-yvt6b_TZ)
+![Diagrama de clases Actividades.](https://drive.google.com/uc?export=view&id=1B0fav9MGYAVEu8nHcFqcFnVBjuyigXKS)
 
 #### 2.1 Descripcion del diagrama
 
