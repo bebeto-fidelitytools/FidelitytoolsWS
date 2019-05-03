@@ -2,6 +2,8 @@
 
 Obtiene el token de acceso usando las credenciales de usuario otorgadas por los administradores de Fideliytools.
 
+El token generado tiene una duración de 24 hs desde el momento en que se generó. Una vez expirado el token deberá repetir la autenticación.
+
 ---
 ### URL
 
