@@ -1,6 +1,6 @@
 ### Descripción
 
-Obtiene el token de acceso usando usuario y contraseña otorgados por Fideliytools.
+Obtiene el token de acceso usando las credenciales de usuario otorgadas por los administradores de Fideliytools.
 
 ---
 ### URL
