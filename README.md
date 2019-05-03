@@ -8,7 +8,7 @@ detallada sobre el entorno gestionado.
 
 ## Requisitos
 
-Para utilizar los servicios web de Fidelitytools es necesario contar con los siguientes datos provistos por los Administradores de Fidelitytools:
+Para utilizar los servicios web de Fidelitytools es necesario contar con los siguientes datos provistos por los administradores de Fidelitytools:
 
 * Credenciales de autenticación y generación de tokens de acceso.
 * Llave de acceso a los servicios web.
@@ -25,8 +25,7 @@ temporal dura 1 minuto desde el momento que fue bloqueado.
 Los servicios web de Fidelitytools están divididos por módulos, donde por cada módulo se pueden
 realizar varias acciones.
 
-#### Autenticación
-+ [Generar token de acceso](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/autenticaci%C3%B3n.md)
+Antes de utilizar cualquier servicio web de Fidelitytools es necesario autenticarse (con las credenciales otorgadas por los administradores de Fidelitytools) utilizando el siguiente recurso: [Generar token de acceso](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/autenticaci%C3%B3n.md)
 
 #### Módulo Segmentación ([Descripcion general](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/segmentacion/descripcion_general.md))
 
