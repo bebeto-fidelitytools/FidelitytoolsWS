@@ -27,6 +27,7 @@ realizar varias acciones.
 
 Antes de utilizar cualquier servicio web de Fidelitytools es necesario autenticarse (con las credenciales otorgadas por los administradores de Fidelitytools) utilizando el siguiente recurso: [Generar token de acceso](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/autenticaci%C3%B3n.md)
 
+---
 #### Módulo Segmentación ([Descripcion general](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/segmentacion/descripcion_general.md))
 
 ##### Personas
@@ -39,6 +40,7 @@ Antes de utilizar cualquier servicio web de Fidelitytools es necesario autentica
 ##### Campos Personales
 * [Obtener Campos Personales](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/segmentacion/get_campo_personal.md)
 
+---
 #### Módulo Ecommerce ([Descripcion general](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/ecommerce/descripcion_general.md))
 
 ##### Pedidos
@@ -47,6 +49,7 @@ Antes de utilizar cualquier servicio web de Fidelitytools es necesario autentica
 * [Obtener Tipos](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/ecommerce/get_tipos.md)
 * [Actualizar Estados de Pedidos](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/ecommerce/set_estados.md)
 
+---
 #### Módulo Catalogos ([Descripcion general](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/catalogos/descripcion_general.md))
 
 ##### Catalogos
@@ -56,6 +59,7 @@ Antes de utilizar cualquier servicio web de Fidelitytools es necesario autentica
 * [Obtener Catalogo](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/catalogos/get_catalogo.md)
 * [Actualizar Catalogo(Precio y Stock)](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/catalogos/set_precio_stock_x_productos.md)
 
+---
 #### Módulo Actividades ([Descripcion general](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/actividades/descripcion_general.md))
 
 ##### Actividades
