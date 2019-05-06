@@ -154,3 +154,18 @@ ___
 ```
 ##### HTTP STATUS CODE: 400 (BadRequest)
 Metodo: [set_personas](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/segmentacion/set_personas.md)
+___
+#### Parámetro idPersona igual a cero.
+```json
+{
+    "mensajes": [
+        {
+            "respuesta": "Error: Parámetro idPersona igual a cero.",
+            "estado": false
+        }
+    ]
+}
+```
+##### HTTP STATUS CODE: 400 (BadRequest)
+Metodo: [get_actividades](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/segmentacion/get_actividades.md)
+
