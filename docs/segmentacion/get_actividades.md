@@ -66,48 +66,24 @@ ___
                     },
                     "actividadTipo": {
                         "id": "Zxt",
-                        "nombre": "Turno"
+                        "nombre": "Pago"
+                    }
+                },
+                                {
+                    "id": 10879845,
+                    "idExterno": "123-8BDR",
+                    "nombre": "Pago Compra N.103451",
+                    "descripcion": "",
+                    "fechaAlta": "2019-04-25T10:08:07.93",
+                    "fechaModificacion": "2019-05-05T17:25:52.163",
+                    "estado": {
+                        "id": 1,
+                        "nombre": "Habilitado"
                     },
-                    "perfilesGenerales": [
-                        {
-                            "id": 66,
-                            "nombre": "Especialidad",
-                            "pgActividadValores": [
-                                {
-                                    "id": 5946,
-                                    "nombre": "Traumatología"
-                                }
-                            ]
-                        },
-                        {
-                            "id": 51,
-                            "nombre": "Obra Social",
-                            "pgActividadValores": [
-                                {
-                                    "id": 2771,
-                                    "nombre": "OSDE"
-                                }
-                            ]
-                        }
-                    ],
-                    "camposPersonales": [
-                        {
-                            "id": 76,
-                            "valor": "875463214"
-                        },
-                        {
-                            "id": 73,
-                            "valor": "13221"
-                        }
-                    ],
-                    "etapas": [
-                        {
-                            "id": 1,
-                            "nombre": "Pendiente",
-                            "fecha": "2019-04-26T10:32:20.5"
-                        }
-                    ]
-                    
+                    "actividadTipo": {
+                        "id": "Zxt",
+                        "nombre": "Pago"
+                    }
                 }
             ]
         }
@@ -120,7 +96,7 @@ ___
 ```
 
 ##### HTTP STATUS CODE: 200 (Ok)
-Como se detalla, el metodo devuelve informacion basica de la persona (Si quiere obtener su informacion completa puede utilizar el metodo [get_persona](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/segmentacion/get_persona.md)). Ademas este metodo proporciona la informacion de sus actividades. Y por ultimo, por cada actividad nos dará sus:
+Como se detalla, el metodo devuelve informacion basica de la persona (Si quiere obtener su informacion completa puede utilizar el metodo [get_persona](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/segmentacion/get_persona.md)). Ademas este metodo proporciona la informacion de sus actividades. Si queremos obtener mas informacion de una actividad podemos utilizar el metodo [get_actividad](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/actividades/get_actividad.md), Este nos dará: 
 * Campos personales de actividad
 * Perfiles generales de actividad
 * etapas
