@@ -31,6 +31,12 @@ ___
 | fechaModificacionDesde | Opcional |Fecha de modificación desde de una o más personas. **Formato dd/mm/aaaa**
 | fechaModificacionHasta| Opcional |Fecha de modificación hasta de una o más personas. **Formato dd/mm/aaaa**
 
+Los parámetros de tipo fecha pueden utilizarse tanto por separado como en conjunto, pero es
+obligatorio el uso **al menos de un conjunto** desde – hasta.
+Los conjuntos son:
+1. fechaAltaDesde – fechaAltaHasta.
+2. fechaModificacionDesde – fechaModificacionHasta.
+
 ___
 ### Ejemplo
 ```bash
