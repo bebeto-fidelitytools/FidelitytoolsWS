@@ -35,6 +35,7 @@ Antes de utilizar cualquier servicio web de Fidelitytools es necesario autentica
 * [Obtener Persona](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/segmentacion/get_persona.md)
 * [Obtener Personas](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/segmentacion/get_personas.md)
 * [Obtener Cantidad de Personas](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/segmentacion/get_cant_personas.md)
+* [Obtener Actividades por Persona](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/segmentacion/get_actividades.md)
 ##### Perfiles Generales
 * [Obtener Perfiles Generales](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/segmentacion/get_perfil_general.md)
 ##### Campos Personales
@@ -65,5 +66,6 @@ Antes de utilizar cualquier servicio web de Fidelitytools es necesario autentica
 ##### Actividades
 * [Registrar/ Actualizar Actividades](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/actividades/set.md)
 * [Eliminar Actividades](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/tree/master/docs/actividades/delete.md)
+* [Obtener Actividad](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/actividades/get_actividad.md)
 * [Obtener Configuracion de un Tipo de Actividad](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/actividades/get_configuracion_tipo.md)
 * [Obtener Tipos de Actividades](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/actividades/get_tipos.md)
