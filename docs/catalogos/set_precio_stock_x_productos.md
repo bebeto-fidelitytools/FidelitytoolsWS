@@ -38,8 +38,8 @@ ___
 ##### Body
 ```json
 [
-    {
-        "codigoInterno": 156760,"precio":1000.00, "stock":800.00, "precio2":500, "stock2":100.00
+	{
+	    "codigoInterno": 156760,"precio":1000.00, "stock":800.00, "precio2":500, "stock2":100.00
 	}
 ]
 ```
