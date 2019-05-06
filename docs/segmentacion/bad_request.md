@@ -32,7 +32,7 @@ ___
 }
 ```
 ##### HTTP STATUS CODE: 400 (BadRequest)
-Metodo: [get_personas](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/segmentacion/get_personas.md)
+Metodo: [get_personas](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/segmentacion/get_personas.md), [get_actividades](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/segmentacion/get_actividades.md)
 ___
 #### fechaAltaDesde o fechaAltaHasta vacíos
 ```json
@@ -46,7 +46,7 @@ ___
 }
 ```
 ##### HTTP STATUS CODE: 400 (BadRequest)
-Metodo: [get_personas](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/segmentacion/get_personas.md)
+Metodo: [get_personas](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/segmentacion/get_personas.md), [get_actividades](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/segmentacion/get_actividades.md)
 ___
 #### fechaModificacionDesde o fechaModificacionHasta vacíos
 ```json
@@ -60,7 +60,7 @@ ___
 }
 ```
 ##### HTTP STATUS CODE: 400 (BadRequest)
-Metodo: [get_personas](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/segmentacion/get_personas.md)
+Metodo: [get_personas](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/segmentacion/get_personas.md), [get_actividades](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/segmentacion/get_actividades.md)
 ___
 #### fechaAltaDesde o fechaAltaHasta con formato inválido
 ```json
@@ -74,7 +74,7 @@ ___
 }
 ```
 ##### HTTP STATUS CODE: 400 (BadRequest)
-Metodo: [get_personas](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/segmentacion/get_personas.md)
+Metodo: [get_personas](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/segmentacion/get_personas.md), [get_actividades](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/segmentacion/get_actividades.md)
 
 El formato de las fechas debe ser **dd/mm/yyyy**.
 ___
@@ -90,7 +90,7 @@ ___
 }
 ```
 ##### HTTP STATUS CODE: 400 (BadRequest)
-Metodo: [get_personas](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/segmentacion/get_personas.md)
+Metodo: [get_personas](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/segmentacion/get_personas.md), [get_actividades](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/segmentacion/get_actividades.md)
 
 Este error hace referencia a que las fechas ingresadas para filtrar pedidos no pueden ser superiores al dia actual. Ademas, el rango máximo permitido entre fechaInicio y fechaFin es de 92 días (3 meses).
 ___
@@ -107,7 +107,7 @@ ___
 }
 ```
 ##### HTTP STATUS CODE: 400 (BadRequest)
-Metodo: [get_personas](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/segmentacion/get_personas.md)
+Metodo: [get_personas](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/segmentacion/get_personas.md), [get_actividades](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/segmentacion/get_actividades.md)
 
 El formato de las fechas debe ser **dd/mm/yyyy**.
 ___
@@ -123,7 +123,7 @@ ___
 }
 ```
 ##### HTTP STATUS CODE: 400 (BadRequest)
-Metodo: [get_personas](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/segmentacion/get_personas.md)
+Metodo: [get_personas](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/segmentacion/get_personas.md), [get_actividades](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/segmentacion/get_actividades.md)
 
 Este error hace referencia a que las fechas ingresadas para filtrar pedidos no pueden ser superiores al dia actual. Ademas, el rango máximo permitido entre fechaInicio y fechaFin es de 92 días (3 meses).
 ___
