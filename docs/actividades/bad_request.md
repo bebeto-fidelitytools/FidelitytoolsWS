@@ -45,4 +45,4 @@ ___
 }
 ```
 ##### HTTP STATUS CODE: 400 (BadRequest)
-Metodo:[get_actividad](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/actividades/get_actividad.md)
+Metodo: [get_actividad](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/actividades/get_actividad.md)
