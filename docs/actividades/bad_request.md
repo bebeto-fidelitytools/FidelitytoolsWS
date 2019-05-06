@@ -19,16 +19,30 @@ ___
 ##### HTTP STATUS CODE: 400 (BadRequest)
 Metodos: [set_actividades](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/actividades/set.md), [delete_actividades](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/actividades/delete.md) 
 ___
-#### Parámetro idTipo vacío
+#### Parámetro idTipoActividad vacío
 ```json
 {
     "mensajes": [
         {
-            "respuesta": "Error: Parámetro idTipo vacío",
+            "respuesta": "Error: Parámetro idTipoActividad vacío",
             "estado": false
         }
     ]
 }
 ```
 ##### HTTP STATUS CODE: 400 (BadRequest)
-Metodo: [get_configuracion_tipo](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/actividades/get_configuracion_tipo.md) 
+Metodo: [get_configuracion_tipo](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/actividades/get_configuracion_tipo.md), [get_actividad](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/actividades/get_actividad.md) 
+___
+#### Parámetro idActividad es igual a cero
+```json
+{
+    "mensajes": [
+        {
+            "respuesta": "Error: Parámetro idActividad es igual a cero.",
+            "estado": false
+        }
+    ]
+}
+```
+##### HTTP STATUS CODE: 400 (BadRequest)
+Metodo:[get_actividad](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/actividades/get_actividad.md)
