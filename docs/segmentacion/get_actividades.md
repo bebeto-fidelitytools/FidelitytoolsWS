@@ -120,5 +120,9 @@ ___
 ```
 
 ##### HTTP STATUS CODE: 200 (Ok)
+Como se detalla, el metodo devuelve informacion basica de la persona (Si quiere obtener la informacion completa de la persona puede utilizar el metodo [get_persona](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/segmentacion/get_persona.md)). Ademas este metodo proporciona la informacion de sus actividades. Y por ultimo, por cada actividad nos dará sus:
+* Campos personales de actividad
+* Perfiles generales de actividad
+* etapas
 
 ***Peticiones inválidas:*** [bad_request](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/segmentacion/bad_request.md)
