@@ -69,7 +69,7 @@ ___
                         "nombre": "Pago"
                     }
                 },
-                                {
+                {
                     "id": 10879845,
                     "idExterno": "123-8BDR",
                     "nombre": "Pago Compra N.103451",
@@ -96,7 +96,7 @@ ___
 ```
 
 ##### HTTP STATUS CODE: 200 (Ok)
-Como se detalla, el metodo devuelve informacion basica de la persona (Si quiere obtener su informacion completa puede utilizar el metodo [get_persona](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/segmentacion/get_persona.md)). Ademas este metodo proporciona la informacion de sus actividades. Si queremos obtener mas informacion de una actividad podemos utilizar el metodo [get_actividad](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/actividades/get_actividad.md), Este nos dará: 
+Como se detalla, el metodo devuelve informacion basica de la persona (Si quiere obtener su informacion completa puede utilizar el metodo [get_persona](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/segmentacion/get_persona.md)). Ademas este metodo proporciona la informacion de sus actividades. Si queremos obtener mas informacion podemos utilizar el metodo [get_actividad](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/actividades/get_actividad.md), Este nos dará: 
 * Campos personales de actividad
 * Perfiles generales de actividad
 * etapas
