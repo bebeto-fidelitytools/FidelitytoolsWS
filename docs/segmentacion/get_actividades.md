@@ -89,7 +89,7 @@ ___
         }
     ],
     "paginador": {
-        "total": 1,
+        "total": 2,
         "limit": 100
     }
 }
