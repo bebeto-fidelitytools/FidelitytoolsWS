@@ -28,7 +28,6 @@ ___
             "segmento":{"idSegmento":"5X5Oi1"},
             "actividades":[{
            	  "idExterno":"777-8BDR",
-                  "estado":{"id" : 1},
                   "nombre":"Pago Compra N.789982",
                   "estado":{"id":1,"nombre":"Habilitado"},
                   "ActividadTipo":{"id":"111"},
@@ -56,7 +55,7 @@ ___
                 "estado":{"id":1,"nombre":"Habilitado"},
                 "ActividadTipo":{"id":"111"},
             }]
-		}
+	}
 ]
 ```
 Como se detalla, este metodo recibe una matriz o colección de
