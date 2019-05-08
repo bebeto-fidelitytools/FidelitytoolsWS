@@ -13,7 +13,7 @@ Permite obtener todos los pedidos registrados entre fechas determinadas.
 GET
 
 ---
-### Parámetros obligatorios
+### Parámetros
 
 ##### Headers
 
