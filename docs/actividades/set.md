@@ -110,15 +110,22 @@ ___
     "mensajes": [
         {
             "respuesta": "Persona: idPersona: 1015454 - Segmento: idSegmento: Mzc4Mg - Actualizada exitosamente",
-            "estado": true
+            "estado": true,
+            "clase": "persona",
+            "id": "1015454"
+	    
         },
         {
-            "respuesta": "Persona: idPersona: 1015454 - Segmento: idSegmento: Mzc4Mg - Actividad - id: 2052658 - idExterno: 777-8BDR - actualizada exitosamente",
-            "estado": true
+            "respuesta": "Actividad: Pago Compra N.789982 id: 2081344 - Agregada exitosamente",
+            "estado": true,
+            "clase": "actividad",
+            "id": "2081344"
         },
         {
-            "respuesta": "Persona: idPersona: 1015454 - Segmento: idSegmento: Mzc4Mg - Actividad - id: 2052716 - idExterno:  - registrada exitosamente",
-            "estado": true
+            "respuesta": "Actividad: Pago Compra N.789982 id: 2081326 - Agregada exitosamente",
+            "estado": true,
+            "clase": "actividad",
+            "id": "2081326"
         }
 	]
 }
