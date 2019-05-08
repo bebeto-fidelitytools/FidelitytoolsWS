@@ -154,7 +154,7 @@ Los campos de tipo fecha por defecto utilizan los siguientes formatos:
 POST
 
 ---
-### Parámetros obligatorios
+### Parámetros
 
 ##### Headers
 
