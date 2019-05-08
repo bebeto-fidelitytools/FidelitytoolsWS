@@ -209,7 +209,9 @@ https://ws.fidelitytools.net/v2/api/segmentacion/persona/set
   "mensajes": [
     {
       "estado": true,
-      "respuesta": "Persona: idPersona: 7288047 - Segmento: idSegmento: NjA2NA - Nombre: Bebeto - D.N.I: 33437253 - Agregada exitosamente"
+      "respuesta": "Persona: idPersona: 7288047 - Segmento: idSegmento: NjA2NA - Nombre: Bebeto - D.N.I: 33437253 - Agregada exitosamente",
+      "clase": "persona",
+      "id": 7288047
     }
   ]
 }
@@ -217,5 +219,6 @@ https://ws.fidelitytools.net/v2/api/segmentacion/persona/set
 ```
 
 ##### HTTP STATUS CODE: 200 (Ok)
+
 
 ***Peticiones inválidas***: [bad_request](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/segmentacion/bad_request.md)
