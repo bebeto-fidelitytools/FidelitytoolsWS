@@ -15,7 +15,7 @@ El token generado tiene una duración de 24 hs desde el momento en que se gener�
 GET
 
 ---
-### Parámetros obligatorios
+### Parámetros
 
 |Parámetro |Requerido |Descripción                 |Ejemplo         |
 |----------|----------|----------------------------|----------------|
