@@ -10,7 +10,7 @@ ___
 ### Método
 POST
 ___
-### Parámetros obligatorios
+### Parámetros
 
 ##### Headers
 
