@@ -9,7 +9,7 @@ ___
 ### Método
 DELETE
 ___
-### Parámetros obligatorios
+### Parámetros
 
 ##### Headers
 
