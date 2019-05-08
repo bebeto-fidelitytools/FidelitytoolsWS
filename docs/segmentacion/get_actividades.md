@@ -9,7 +9,7 @@ ___
 ### Método
 GET
 ___
-### Parámetros obligatorios
+### Parámetros
 
 ##### Headers
 
