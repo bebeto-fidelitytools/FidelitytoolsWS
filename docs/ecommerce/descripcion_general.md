@@ -59,6 +59,6 @@ El siguiente diagrama de clases detalla solo las clases intervinientes en el mó
 otras clases, como persona o pedidos, que intervienen en otros módulos y en este caso quedan descartadas
 de descripción.
 
-![Diagrama de clases Ecommerce.](https://drive.google.com/uc?export=view&id=1oLhNumIn0Iqj1-LfhnC07vYoAiM-7SMh)
+![Diagrama de clases Ecommerce.](https://drive.google.com/uc?export=view&id=1qmYf4t_u5JdyR2hgFKdy1mmWV3KDrg8d)
 
 ### [Funciones del modulo Ecommerce](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/tree/master/docs/ecommerce) 
