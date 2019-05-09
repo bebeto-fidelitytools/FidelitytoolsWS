@@ -1,5 +1,5 @@
 ### Descripcion
-Recibe como parametro un token caducado y retorna un nuevo token con las mismas credenciales pero valido.
+Recibe como parametro un token caducado y retorna un nuevo token.
 ___
 
 ### URL
