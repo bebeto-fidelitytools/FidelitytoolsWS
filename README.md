@@ -28,6 +28,10 @@ realizar varias acciones.
 Antes de utilizar cualquier servicio web de Fidelitytools es necesario autenticarse (con las credenciales otorgadas por los administradores de Fidelitytools) utilizando el siguiente recurso: [Generar token de acceso](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/autenticaci%C3%B3n.md)
 
 ---
+#### Módulo Usuario
+##### Autenticacion
+* [Obtener token de acceso](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/usuario/autenticaci%C3%B3n.md)
+---
 #### Módulo Segmentación ([Descripcion general](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/segmentacion/descripcion_general.md))
 
 ##### Personas
