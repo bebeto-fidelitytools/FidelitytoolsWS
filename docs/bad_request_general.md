@@ -121,3 +121,11 @@ ___
 }
 ```
 ##### HTTP STATUS CODE: 401 (Unauthorized)
+___
+#### No existe header Authorization
+```json
+{
+    "Message": "Authorization has been denied for this request."
+}
+```
+##### HTTP STATUS CODE: 401 (Unauthorized)
