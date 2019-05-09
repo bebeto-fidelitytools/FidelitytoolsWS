@@ -16,7 +16,7 @@ ___
 |Parámetro |Requerido |Descripción                 |
 |----------|----------|----------------------------|
 | key         | Si		 | Llave de acceso otorgada por los administradores de Fidelitytools. |
-| Authorization       | Si		 | token generado mediante el endpoint [Generar token de acceso](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/autenticaci%C3%B3n.md). |
+| Authorization       | Si		 | token generado mediante el endpoint [Generar token de acceso](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/usuario/autenticaci%C3%B3n.md). |
 
 ___
 ### Ejemplo
