@@ -60,7 +60,7 @@ ___
 				"sexo": "M", "tipoPers":"persona"
 			},
 			"plazoEntrega":"10 dias",
-			"ProductosxPedido":
+			"productosxPedido":
 			[
 				{"cantidad":21.00, "precio":50.99, "producto":{"codigoInterno":"1", "idProducto":3255554, 
 				"titulo":"CH FOR MEN"}, "subtotal":21000.00},
@@ -77,7 +77,7 @@ ___
 	"paginador": {"total":1}
 }
 ```
-Por cada elemento de la matriz pedidos hay un objeto pedido y, a su vez, cada objeto pedido contiene sus propiedades incluidas el objeto persona (que contiene todos los datos del cliente asociado al pedido) y la matriz productosxPedido que contiene uno o más productos asociados al pedido.
+Por cada elemento de la matriz pedidos hay un objeto pedido que, junto con sus propiedades, contiene el objeto persona (datos del cliente asociado al pedido) y la matriz productosxPedido que contiene uno o más productos asociados al pedido.
 ##### HTTP STATUS CODE: 200 (Ok)
 
 ***Peticiones inválidas***: [bad_request](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/ecommerce/bad_request.md)
