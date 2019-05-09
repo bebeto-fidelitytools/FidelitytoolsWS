@@ -41,7 +41,7 @@ ___
 
 ##### HTTP STATUS CODE: 200 (Ok)
 
-***Peticiones inválidas:*** [bad_request](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/bad_request_autorizacion.md)
+***Peticiones inválidas:*** [bad_request](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/usuario/bad_request.md)
 
  
 
