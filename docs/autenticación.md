@@ -1,63 +1,47 @@
-### Descripción
+### Descripcion
+Recibe como parametro un token caducado y retorna un nuevo token con las mismas credenciales pero valido.
+___
 
-Obtiene el token de acceso usando las credenciales de usuario otorgadas por los administradores de Fideliytools.
-
-El token generado tiene una duración de 24 hs desde el momento en que se generó. Una vez expirado el token deberá repetir la autenticación.
-
----
 ### URL
+` https://ws.fidelitytools.net/v2/api/user/gettokenrefresh `
+___
 
-`https://ws.fidelitytools.net/v2/api/user/authenticate/{username}/{password}`
-
----
 ### Método
-
 GET
-
----
+___
 ### Parámetros
 
-|Parámetro |Requerido |Descripción                 |Ejemplo         |
-|----------|----------|----------------------------|----------------|
-|username  |SI        |Nombre de usuario           |usuario-123     |
-|password  |SI        |Contraseña de usuario       |password-123    |
+##### Headers
 
----
+|Parámetro |Requerido |Descripción                 |
+|----------|----------|----------------------------|
+| token | Si | el token que se quiere regenerar. |
+
+___
 ### Ejemplo
-
 ```bash
-curl -XGET 'https://ws.fidelitytools.net/v2/api/user/authenticate/usuario-123/password-123'
+curl -XGET 
+-H "Content-Type: application/json" 
+-H "token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkbmlxdWVfbmFtZSI6InVzZXJb25maWciLCJuYmYiOjE1NTYxMTk0MNjIwNTgwNywiaWF0IjoxNTU2MTE5NDA3LCJpczovL3dzLmZpZGVsaXR5dG9vbHMubmV0L3YyIiwiYXVkIjoiaHa2U2asdasdy5maWRlbGl0eXRvb2xzLm5ldC92MiJ9RDDpMHEB4SsmY0j87OcS5mbxe2XxSAY" 
+https://ws.fidelitytools.net/v2/api/user/gettokenrefresh
 ```
-
----
+___
 ### Respuestas
-
-***Credenciales válidas***
-
+***Petición exitosa***
 ```json
 {
     "mensajes": [
         {
-            "respuesta": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImNlbnRyby1kZWwtcGVpbmFkb3IiLCJuYmYiOjE1NTU0NDUwMDksImV4cCI6MTU1NTUzMTQwOSwiaWF0IjoxNTU1NDQ1MDA5LCJpc3MiOiJodHRwczovL3dzLmZpZGVsaXR5dG9vbHMubmV0L3YyIiwiYXVkIjoiaHR0cHM6Ly93cy5maWRlbGl0eXRvb2xzLm5ldC92MiJ9.cUCn5wJ1C2zB4eM1JyQH7zV_eIKgMCtGDPqgZqIzJAY",
+            "respuesta": "101JhbGciOiJIUz664hdg2YaRInR5cCI6IkbmlxdWVfbmFtZSI6InVzZXJb25maWciLCJuYmYiOjE1NTYxMTk0MNjIwNTgwNywiaWF0IjoxNTU2MTE5NDA3LCJpczovL3dzLmZpZGVsaXR5dG9vbHMubmV0L3YyIiwiYXVkIjoiaHa2U2asdasdy5maWRlbGl0eXRvb2xzLm5ldC92MiJ9RDDpMHEB4SsmY0j87OcS5mbxe2XxSAttsa",
             "estado": true
         }
     ]
 }
 ```
 
-###### HTTP STATUS CODE: 200 (Ok)
+##### HTTP STATUS CODE: 200 (Ok)
 
-***Credenciales inválidas***
+***Peticiones inválidas:*** [bad_request](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/bad_request_autorizacion.md)
 
-```json
-{
-    "mensajes": [
-        {
-            "respuesta": "Credenciales de acceso inválidas",
-            "estado": false
-        }
-    ]
-}
-```
-###### HTTP STATUS CODE: 401 (Unauthorized)
+ 
 
