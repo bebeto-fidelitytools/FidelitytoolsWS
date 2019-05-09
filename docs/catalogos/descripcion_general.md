@@ -51,7 +51,7 @@ El siguiente diagrama de clases detalla solo las clases intervinientes en el mó
 otras clases, como persona o pedidos, que intervienen en otros módulos y en este caso quedan descartadas
 de descripción.
 
-![Diagrama de clases Catalogos.](https://drive.google.com/uc?export=view&id=1ha3bXL4OnAipkctJ8IAHzMGG5ODb85w0)
+![Diagrama de clases Catalogos.](https://drive.google.com/uc?export=view&id=1FGcwcOQjIqaM63RMZzqz_7WO3vK-Lopw)
 
 | Reglas de uso para que la carga sea valida | 
 |--------------------------------------------|
