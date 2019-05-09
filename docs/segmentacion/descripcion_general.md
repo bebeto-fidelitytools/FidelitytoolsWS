@@ -62,7 +62,7 @@ El siguiente diagrama de clases detalla solo las clases intervinientes en el mó
 existen otras clases, como [productos](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/catalogos/descripcion_general.md), [pedidos](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/ecommerce/descripcion_general.md) o [actividades](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/actividades/descripcion_general.md), que intervienen en otros módulos y en este
 caso quedan descartadas de descripción.
 
-![Diagrama de clases segmentacion.](https://drive.google.com/uc?export=view&id=1aCopBSx9_t5wxpAQ9Y0Lh0bZoXziCHAr)
+![Diagrama de clases segmentacion.](https://drive.google.com/uc?export=view&id=10u_YWX-Q4sR0IdNXIAS2ZH4G-UthVaMl)
 
 #### 2.1 Descripcion 
 
