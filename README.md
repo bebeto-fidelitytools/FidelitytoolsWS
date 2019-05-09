@@ -54,7 +54,7 @@ Antes de utilizar cualquier servicio web de Fidelitytools es necesario autentica
 #### Módulo Catalogos ([Descripcion general](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/catalogos/descripcion_general.md))
 
 ##### Catalogos
-* [Registrar/ Actualizar Catalogos](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/catalogos/set.md)
+* [Registrar / Actualizar Catalogos](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/catalogos/set.md)
 * [Eliminar Catalogo](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/catalogos/delete.md)
 * [Obtener Catalogos](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/catalogos/get_catalogos.md)
 * [Obtener Catalogo](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/catalogos/get_catalogo.md)
@@ -64,7 +64,7 @@ Antes de utilizar cualquier servicio web de Fidelitytools es necesario autentica
 #### Módulo Actividades ([Descripcion general](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/actividades/descripcion_general.md))
 
 ##### Actividades
-* [Registrar/ Actualizar Actividades](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/actividades/set.md)
+* [Registrar / Actualizar Actividades](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/actividades/set.md)
 * [Eliminar Actividades](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/tree/master/docs/actividades/delete.md)
 * [Obtener Actividad](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/actividades/get_actividad.md)
 * [Obtener Configuracion de un Tipo de Actividad](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/actividades/get_configuracion_tipo.md)
