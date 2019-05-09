@@ -1,44 +1,17 @@
-#### Llave de acceso inválida
+#### Token inválido
 ```json
 {
     "mensajes": [
         {
-            "respuesta": "Llave de acceso inválida.",
+            "respuesta": "Token inválido",
             "estado": false
         }
     ]
 }
 ```
 ##### HTTP STATUS CODE: 401 (Unauthorized)
-La llave de acceso que se paso por el header key es invalido.
-___
-#### Llave de acceso inexistente
-```json
-{
-    "mensajes": [
-        {
-            "respuesta": "Llave de acceso inexistente.",
-            "estado": false
-        }
-    ]
-}
-```
-##### HTTP STATUS CODE: 401 (Unauthorized)
-No existe el header key en la peticion.
-___
-#### Llave de acceso vacía
-```json
-{
-    "mensajes": [
-        {
-            "respuesta": "Llave de acceso vacía.",
-            "estado": false
-        }
-    ]
-}
-```
-##### HTTP STATUS CODE: 401 (Unauthorized)
-El header key esta vacio.
+Metodo: [autenticacion](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/usuario/autenticaci%C3%B3n.md)
+
 ___
 #### Token caducado
 ```json
@@ -52,13 +25,62 @@ ___
 }
 ```
 ##### HTTP STATUS CODE: 401 (Unauthorized)
-El token ingresado mediante el header Authorization es invalido.
+Metodo: [autenticacion](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/usuario/autenticaci%C3%B3n.md)
+
 ___
-#### No existe header Authorization
+#### Token con formato inválido
 ```json
 {
-    "Message": "Authorization has been denied for this request."
+    "mensajes": [
+        {
+            "respuesta": "Token con formato inválido",
+            "estado": false
+        }
+    ]
+}
+```
+##### HTTP STATUS CODE: 500 (Internal Server Error)
+Metodo: [autenticacion](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/usuario/autenticaci%C3%B3n.md)
+
+___
+#### Token vacío
+```json
+{
+    "mensajes": [
+        {
+            "respuesta": "Token vacío",
+            "estado": false
+        }
+    ]
 }
 ```
 ##### HTTP STATUS CODE: 401 (Unauthorized)
-No se especifico el header Authorization.
+Metodo: [autenticacion](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/usuario/autenticaci%C3%B3n.md)
+___
+#### Parámetro token inexistente
+```json
+{
+    "mensajes": [
+        {
+            "respuesta": "Parámetro token inexistente",
+            "estado": false
+        }
+    ]
+}
+```
+##### HTTP STATUS CODE: 401 (Unauthorized)
+Metodo: [autenticacion](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/usuario/autenticaci%C3%B3n.md)
+___
+#### Credenciales de acceso inválidas
+```json
+{
+    "mensajes": [
+        {
+            "respuesta": "Parámetro token inexistente",
+            "estado": false
+        }
+    ]
+}
+```
+##### HTTP STATUS CODE: 401 (Unauthorized)
+Metodo: [autenticacion](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/usuario/autenticaci%C3%B3n.md)
