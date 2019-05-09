@@ -82,3 +82,42 @@ ___
 ```
 ##### HTTP STATUS CODE: 400 (BadRequest)
 El limite indicado tiene que ser mayor que cero.
+___
+#### Llave de acceso inválida
+```json
+{
+    "mensajes": [
+        {
+            "respuesta": "Llave de acceso inválida.",
+            "estado": false
+        }
+    ]
+}
+```
+##### HTTP STATUS CODE: 401 (Unauthorized)
+___
+#### Llave de acceso inexistente
+```json
+{
+    "mensajes": [
+        {
+            "respuesta": "Llave de acceso inexistente.",
+            "estado": false
+        }
+    ]
+}
+```
+##### HTTP STATUS CODE: 401 (Unauthorized)
+___
+#### Llave de acceso vacía
+```json
+{
+    "mensajes": [
+        {
+            "respuesta": "Llave de acceso vacía.",
+            "estado": false
+        }
+    ]
+}
+```
+##### HTTP STATUS CODE: 401 (Unauthorized)
