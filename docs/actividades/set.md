@@ -23,40 +23,40 @@ ___
 ##### Body
 ```json
 [
+  {
+    "idPersona": "1015454",
+    "segmento": { "idSegmento": "5X5Oi1" },    
+    "actividades": 
+    [
       {
-            "idPersona":"1015454",
-            "segmento":{"idSegmento":"5X5Oi1"},
-            "actividades":[{
-           	  "idExterno":"777-8BDR",
-                  "nombre":"Pago Compra N.789982",
-                  "estado":{"id":1,"nombre":"Habilitado"},
-                  "ActividadTipo":{"id":"111"},
-                  "perfilesGenerales":
-                  [{
-                    	"id":66, "nombre": "TipoCompra", 
-                        "pgActividadValores": [ {"id":0, "nombre":"Contado"} ]
-                    }],
-                  "camposPersonales":
-                  [ { "cpActividad": {"id":46, "nombre":"Codigo"}, "valor":"789982"} ],
-                  "etapas":
-                  [ {"id":1, "nombre":"Pendiente"} ]
-            },
-            {
-	    	  "id": 210451,
-                  "nombre":"Pago Compra N.101982",
-                  "estado":{"id":1,"nombre":"Habilitado"},
-                  "ActividadTipo":{"id":"111"},
-            }]
-        },
-        {
-            "idPersona":"10301056",
-            "segmento":{"idSegmento":"5X5Oi1"},
-            "actividades":[{
-                "nombre":"Pago Compra N.233982",
-                "estado":{"id":1,"nombre":"Habilitado"},
-                "ActividadTipo":{"id":"111"},
-            }]
-	}
+        "idExterno": "777-8BDR",
+        "nombre": "Pago Compra N.789982",        
+        "actividadTipo": { "id": "OtK" },
+        "estado": { "id": 1, "nombre": "Habilitado" },
+        "camposPersonales": [ { "cpActividad": { "id": 46, "nombre": "Codigo" }, "valor": "789982" } ],        
+        "etapas": [ { "id": 1, "nombre": "Pendiente" } ],
+        "perfilesGenerales": [ { "id": 66, "nombre": "TipoCompra", "pgActividadValores": [ { "id": 0, "nombre": "Contado" } ] } ]
+      },
+      {
+        "id": 210451,
+        "nombre": "Pago Compra N.101982",
+        "actividadTipo": { "id": "111" },
+        "estado": { "id": 1, "nombre": "Habilitado" }
+      }
+    ]
+  },
+  {
+    "idPersona": "10301056",
+    "segmento": { "idSegmento": "5X5Oi1" },    
+    "actividades": 
+    [
+      {
+        "actividadTipo": { "id": "OtK" },
+        "estado": { "id": 1, "nombre": "Habilitado" },
+        "nombre": "Pago Compra N.233982"
+      }
+    ]
+  }
 ]
 ```
 Como se detalla, este metodo recibe una matriz o colección de
