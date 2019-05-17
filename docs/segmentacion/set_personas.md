@@ -93,9 +93,9 @@ activo el campo de comprobación por defecto idPersona.
 |habilitado   		 | string   | Determina si se encuentra habilitada			| No       | -			 						 |
 |email	      		 | string   | Email de la persona							| No       | email		 						 |
 |email2	      		 | string   | Email alternativo de la persona				| No       | email		 						 |
-|fechaNac     		 | Datetime | Fecha de nacimiento							| No       | DD/MM/YYYY HH:MM:SS			 	 |
-|fechaAlta    		 | Datetime | Fecha de alta de la persona					| No       | DD/MM/YYYY HH:MM:SS			 	 |
-|fechaModificacion 	 | Datetime | Fecha de modificación de la persona			| No       | DD/MM/YYYY HH:MM:SS			 	 |
+|fechaNac     		 | Datetime | Fecha de nacimiento							| No       | YYYY-MM-DDThh:mm:ss		 		 |
+|fechaAlta    		 | Datetime | Fecha de alta de la persona					| No       | YYYY-MM-DDThh:mm:ss		 		 |
+|fechaModificacion 	 | Datetime | Fecha de modificación de la persona			| No       | YYYY-MM-DDThh:mm:ss		 		 |
 |codigoPais   		 | string   | Código teléfonico del país					| No       | -			 						 |
 |telefono     		 | int      | Telefono										| No       | Nro. Entero 						 |
 |telefono2    		 | int      | Telefono alternativo							| No       | Nro. Entero 						 |
@@ -135,13 +135,7 @@ servicio web de Fidelitytools, es decir que las asociaciones entre personas se r
 Fidelitytools. Esta propiedad es utilizada en la función de Obtener Personas (detallada posteriormente)
 cuando la persona está asociada a otra persona.
 
-Los campos de tipo fecha por defecto utilizan los siguientes formatos:
-* dd/MM/yyyy HH:MM:SS
-* d/MM/yyyy HH:MM:SS
-* dd/M/yyyy HH:MM:SS
-* dd/MM/yyyy
-* d/MM/yyyy
-* dd/M/yyyy
+Los campos de tipo fecha por defecto utilizan el formato UTC: YYYY-MM-DDThh:mm:ss
 
 ---
 ### URL
@@ -177,6 +171,7 @@ POST
 		"pref3": 351,
 		"movil": 6987654,
 		"observaciones": "Observaciones sobre la persona",
+        "fechaNac": "1987-12-15T14:15:44",
 		"perfilesGenerales": 
 		[
 			{ "idPerfilGeneral": 123, "perfilGeneralValores": [ {"nombre": "pgv1"}, {"nombre": "pgv2"} ] }
