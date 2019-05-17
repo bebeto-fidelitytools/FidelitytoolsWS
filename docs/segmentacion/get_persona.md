@@ -26,7 +26,7 @@ ___
 | idPersona | Opcional | Id de la persona que se quiere buscar. |
 | idExterno | Opcional | IdExterno de la persona que se quiere buscar.| 
 
-No es necesario que esten ambos valores(idPersona, idExterno) de una persona para buscarla. Pero al menos uno es necesario. Si se introducen ambos valores el metodo buscará por idPersona.
+No es necesario que esten ambos valores (idPersona, idExterno) de una persona para buscarla. Pero al menos uno es necesario. Si se introducen ambos valores el metodo buscará por idPersona.
 
 ___
 ### Ejemplo
