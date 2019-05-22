@@ -44,18 +44,6 @@ ___
         "estado": { "id": 1, "nombre": "Habilitado" }
       }
     ]
-  },
-  {
-    "idPersona": "10301056",
-    "segmento": { "idSegmento": "5X5Oi1" },    
-    "actividades": 
-    [
-      {
-        "actividadTipo": { "id": "OtK" },
-        "estado": { "id": 1, "nombre": "Habilitado" },
-        "nombre": "Pago Compra N.233982"
-      }
-    ]
   }
 ]
 ```
@@ -108,19 +96,20 @@ ___
 ***Petición exitosa***
 ```json
 {
-    "mensajes": [
+    "mensajes": 
+    [
         {
             "respuesta": "Persona: idPersona: 1015454 - Segmento: idSegmento: Mzc4Mg - Actualizada exitosamente",
             "estado": true,
             "clase": "persona",
-            "id": "1015454"
-	    
+            "id": "1015454"	    
         },
         {
             "respuesta": "Actividad: Pago Compra N.789982 id: 2081344 - Agregada exitosamente",
             "estado": true,
             "clase": "actividad",
-            "id": "2081344"
+            "id": "2081344",
+	    "idExterno": "777-8BDR"
         },
         {
             "respuesta": "Actividad: Pago Compra N.789982 id: 2081326 - Agregada exitosamente",
@@ -128,7 +117,7 @@ ___
             "clase": "actividad",
             "id": "2081326"
         }
-	]
+    ]
 }
 ```
 
