@@ -171,7 +171,7 @@ POST
 		"pref3": 351,
 		"movil": 6987654,
 		"observaciones": "Observaciones sobre la persona",
-        "fechaNac": "1987-12-15T14:15:44",
+        	"fechaNac": "1987-12-15T14:15:44",
 		"perfilesGenerales": 
 		[
 			{ "idPerfilGeneral": 123, "perfilGeneralValores": [ {"nombre": "pgv1"}, {"nombre": "pgv2"} ] }
