@@ -206,7 +206,7 @@ https://ws.fidelitytools.net/v2/api/segmentacion/persona/set
       "estado": true,
       "respuesta": "Persona: idPersona: 7288047 - Segmento: idSegmento: NjA2NA - Nombre: Bebeto - D.N.I: 33437253 - Agregada exitosamente",
       "clase": "persona",
-      "id": "7288047"
+      "id": "7288047",
       "idExterno": "AA-BB-00-11"
     }
   ]
