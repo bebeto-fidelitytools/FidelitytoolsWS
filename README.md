@@ -76,5 +76,6 @@ Para utilizar cualquier servicio web de Fidelitytools es necesario contar con un
 * [Registrar Archivos por Actividad](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/actividades/set_archivos.md)
 * [Obtener Actividades por Tipo](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/actividades/get_actividades_por_tipo.md)
 
+---
 #### Archivos
 * [Obtener Archivo](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/archivos/get_archivo.md)
