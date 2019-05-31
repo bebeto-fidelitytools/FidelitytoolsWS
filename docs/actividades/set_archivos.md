@@ -45,7 +45,7 @@ ___
             "id":"1012154"
         },
         {
-        	"respuesta":"Archivo creado correctamente",
+            "respuesta":"Archivo creado correctamente",
             "estado":true,
             "clase":"archivo",
             "id":"1012155"
