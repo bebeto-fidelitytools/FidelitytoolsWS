@@ -168,4 +168,19 @@ ___
 ```
 ##### HTTP STATUS CODE: 400 (BadRequest)
 Metodo: [get_actividades](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/segmentacion/get_actividades.md)
+___
+#### Parámetro idPerfilGeneral inválido
+```json
+{
+    "mensajes": [
+        {
+            "respuesta": "Error: Parámetro idPerfilGeneral inválido",
+            "estado": false
+        }
+    ]
+}
+```
+##### HTTP STATUS CODE: 400 (BadRequest)
+Metodo: [get_valores_perfil_general](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/segmentacion/get_valores_perfil_general.md)
+
 
