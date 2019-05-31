@@ -33,12 +33,12 @@ ___
 ##### HTTP STATUS CODE: 400 (BadRequest)
 Metodo: [get_configuracion_tipo](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/actividades/get_configuracion_tipo.md), [get_actividad](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/actividades/get_actividad.md) 
 ___
-#### Parámetro idActividad es igual a cero
+#### Parámetro idActividad inválido
 ```json
 {
     "mensajes": [
         {
-            "respuesta": "Error: Parámetro idActividad es igual a cero.",
+            "respuesta": "Error: Parámetro idActividad inválido",
             "estado": false
         }
     ]
@@ -46,3 +46,87 @@ ___
 ```
 ##### HTTP STATUS CODE: 400 (BadRequest)
 Metodo: [get_actividad](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/actividades/get_actividad.md)
+___
+#### No existe una actividad con ese id
+```json
+{
+    "mensajes": [
+        {
+            "respuesta": "Error: No existe una actividad con ese id.",
+            "estado": false
+        }
+    ]
+}
+```
+##### HTTP STATUS CODE: 400 (BadRequest)
+Metodo: [set_archivos](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/actividades/set_archivos.md)
+___
+#### No existe una actividad con ese id
+```json
+{
+    "mensajes": [
+        {
+            "respuesta": "Error: No existe una actividad con ese id.",
+            "estado": false
+        }
+    ]
+}
+```
+##### HTTP STATUS CODE: 400 (BadRequest)
+Metodo: [set_archivos](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/actividades/set_archivos.md)
+___
+#### No es posible obtener los archivos
+```json
+{
+    "mensajes": [
+        {
+            "respuesta": "Error: No es posible obtener los archivos.",
+            "estado": false
+        }
+    ]
+}
+```
+##### HTTP STATUS CODE: 400 (BadRequest)
+Metodo: [set_archivos](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/actividades/set_archivos.md)
+___
+#### No se encontraron archivos a registrar
+```json
+{
+    "mensajes": [
+        {
+            "respuesta": "Error: No se encontraron archivos a registrar",
+            "estado": false
+        }
+    ]
+}
+```
+##### HTTP STATUS CODE: 400 (BadRequest)
+Metodo: [set_archivos](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/actividades/set_archivos.md)
+___
+#### No se pudieron guardar los archivos
+```json
+{
+    "mensajes": [
+        {
+            "respuesta": "Error: No se pudieron guardar los archivos",
+            "estado": false
+        }
+    ]
+}
+```
+##### HTTP STATUS CODE: 400 (BadRequest)
+Metodo: [set_archivos](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/actividades/set_archivos.md)
+___
+#### No se enviaron correctamente los archivo
+```json
+{
+    "mensajes": [
+        {
+            "respuesta": "Error: No se enviaron correctamente los archivos",
+            "estado": false
+        }
+    ]
+}
+```
+##### HTTP STATUS CODE: 400 (BadRequest)
+Metodo: [set_archivos](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/actividades/set_archivos.md)
