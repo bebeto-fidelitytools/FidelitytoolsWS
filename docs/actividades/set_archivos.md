@@ -39,7 +39,7 @@ ___
 {
 	"mensajes":[
     	{
-        	"respuesta":"Archivo creado correctamente",
+            "respuesta":"Archivo creado correctamente",
             "estado":true,
             "clase":"archivo",
             "id":"1012154"
