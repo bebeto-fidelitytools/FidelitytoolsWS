@@ -19,6 +19,13 @@ ___
 | Authorization       | Si		 | token generado mediante el endpoint [Generar token de acceso](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/autenticaci%C3%B3n.md). |
 | Content-Type | Si | El content-type de la peticion debe ser **'multipart/form-data'** |
 
+##### URL
+
+|Parámetro |Requerido |Descripción                 |
+|----------|----------|----------------------------|
+| idTipoActividad         | Si		 | Id del tipo de actividad que corresponde a la actividad que se le registraran los archivos |
+| idActividad         | Si		 | Id de la actividad a la cual se le asignaran los archivos.|
+
 ##### Body
 El body debe ser un form data, Compuesto de registros <clave, valor> En donde el valor será el archivo a registrar de la actividad. 
 ___
