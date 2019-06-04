@@ -22,8 +22,8 @@ ___
 ##### Body
 ```json
 [
-	{"id":985561, "actividadTipo": {"id": "52eWX1" } },
-	{"idExterno":"77-TR-001", "actividadTipo": {"id": "52eWX1" } }
+	{ "id": 985561, "actividadTipo": { "id": "52eWX1" } },
+	{ "idExterno": "77-TR-001", "actividadTipo": { "id": "52eWX1" } }
 ]
 ```
 Como se detalla, este metodo recibe una matriz o colección de
