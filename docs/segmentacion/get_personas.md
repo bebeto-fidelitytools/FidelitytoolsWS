@@ -34,6 +34,7 @@ ___
 
 Los parámetros de tipo fecha pueden utilizarse tanto por separado como en conjunto, pero es
 obligatorio el uso **al menos de un conjunto** desde – hasta.
+
 Los conjuntos son:
 1. fechaAltaDesde – fechaAltaHasta.
 2. fechaModificacionDesde – fechaModificacionHasta.
