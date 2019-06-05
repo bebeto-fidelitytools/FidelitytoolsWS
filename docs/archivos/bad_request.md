@@ -1,3 +1,5 @@
+* [Error interno de procesamiento](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/bad_request_general.md#error-interno-de-procesamiento)
+---
 #### Parámetro idArchivo inválido
 ```json
 {
