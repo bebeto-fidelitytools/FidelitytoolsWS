@@ -95,14 +95,12 @@ web de Fidelitytools dice que se requieren los 10 primeros registros del segment
 petición es:
 - offset = 0 (arranca desde 0 porque son los 10 primeros).
 - limit = 10 (10 registros desde el valor offset).
-- total = 20 (valor configurado internamente por el servicio que determina la cantidad total de
-registros que contiene dicho segmento).
+- total = 20 (valor obtenido que determina la cantidad total de registros que contiene dicho segmento condicionado por filtros aplicados en el momento de la petición, por ejemplo: filtros de fecha).
 
 Para obtener los 10 registros restantes, la configuración de la petición es:
 - offset = 10 (arranca desde 10 porque los 10 anteriores ya se obtuvieron).
 - limit = 10 (10 registros desde el valor del offset).
-- total = 20 (valor configurado internamente por el servicio web que determina la cantidad total de
-registros que contiene dicho segmento).
+- total = 20 (valor obtenido que determina la cantidad total de registros que contiene dicho segmento condicionado por filtros aplicados en el momento de la petición, por ejemplo: filtros de fecha).
 
 ##### 2.1.3 Clase Mensaje
 
