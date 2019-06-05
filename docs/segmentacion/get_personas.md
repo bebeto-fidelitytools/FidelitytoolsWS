@@ -25,7 +25,7 @@ ___
 |Parámetro |Requerido |Descripción                 |
 |----------|----------|----------------------------|
 | idSegmento | Si | Id del segmento en donde se va a buscar las personas. |
-| offset | Si | la posición desde donde arranca el rango de registros a obtener. |
+| offset | Si | La posición desde donde arranca el rango de registros a obtener. |
 | limit | Si | Limite de registros a obtener. El limite permitido por el sistema es de 100.| 
 | fechaAltaDesde | Opcional | Fecha de alta desde de una o más personas. **Formato dd/mm/aaaa**
 | fechaAltaHasta | Opcional |Fecha de alta hasta de una o más personas. **Formato dd/mm/aaaa**
@@ -93,6 +93,7 @@ ___
         },
     ],
     "paginador": {
+    	"offset": 0,
         "total": 3,
         "limit": 100
     }
@@ -109,8 +110,11 @@ varias funciones como por ejemplo:
 preferencias, perfilesGenerales y camposPersonales de la persona, ya que en esta función
 ([get_personas](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/segmentacion/get_personas.md)) estas matrices están exeptuadas de carga para que la comunicación sea más ágil.
 Es decir, que para obtener estas matrices se debe consultar la función wsGetPersona.
+
 Otro punto importante de esta función es el objeto Paginador que, como detalla la imagen, retorna
-el total de personas del segmento consultado (total = 1), el offset y limit. Cabe destacar que el valor máximo
-permitido del campo limit es 100, esto significa que se pueden obtener hasta 100 personas por consulta.
+el total de personas del segmento consultado, el offset y limit. Cabe destacar que el valor máximo
+permitido del campo limit es 100, esto significa que se pueden obtener hasta 100 personas por consulta. 
+
+Es necesario tener en cuenta que el valor del campo total esta condicionado por los filtros de fecha aplicados. Es decir que el total obtenido no es representativo del total de personas del segmento consultado si no que representa el total de personas obtenidas por los filtros aplicados.
 
 ***Peticiones inválidas***: [bad_request](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/segmentacion/bad_request.md)
