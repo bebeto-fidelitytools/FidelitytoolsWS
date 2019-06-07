@@ -34,6 +34,9 @@ Para utilizar cualquier servicio web de Fidelitytools es necesario contar con un
 ---
 #### Módulo Segmentación ([Descripcion general](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/segmentacion/descripcion_general.md))
 
+##### Segmentos
+* [Obtener Segmentos](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/segmentacion/get_segmentos.md)
+
 ##### Personas
 * [Registrar / Actualizar Personas](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/segmentacion/set_personas.md)
 * [Obtener Persona](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/segmentacion/get_persona.md)
