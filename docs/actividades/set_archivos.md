@@ -1,5 +1,5 @@
 ### Descripcion
-Permite registrarle una lista de archivos a una actividad. La forma que se utiliza para el envio de archivos en el request es a través de un [form-data](https://developer.mozilla.org/en-US/docs/Web/API/FormData/Using_FormData_Objects).
+Permite registrarle una lista de archivos a una actividad. La forma que se utiliza para el envio de archivos en el request es a través de un [form-data](https://developer.mozilla.org/en-US/docs/Web/API/FormData/Using_FormData_Objects). El limite de tamaño maximo aceptado para la petición es de 30MB, la cantidad de archivos no está limitada.
 ___
 
 ### URL
