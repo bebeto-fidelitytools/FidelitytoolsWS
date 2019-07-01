@@ -174,7 +174,7 @@ POST
         	"fechaNac": "1987-12-15T14:15:44",
 		"perfilesGenerales": 
 		[
-			{ "idPerfilGeneral": 123, "perfilGeneralValores": [ {"nombre": "pgv1"}, {"nombre": "pgv2"} ] }
+			{ "idPerfilGeneral": 123, "perfilGeneralValores": [ {"idPerfilGeneralValor": "999"}, {"idPerfilGeneralValor": "998"} ] }
 		],
 		"camposPersonales":
 		[
