@@ -90,7 +90,7 @@ activo el campo de comprobación por defecto idPersona.
 |apellido     		 | string   | Apellido de la persona						| No       | -			 						 |
 |dni	      		 | int      | Código identificador único					| No       | Nro. Entero 						 |
 |apellido     		 | string   | Apellido de la persona						| No       | -			 						 |
-|habilitado   		 | string   | Determina si se encuentra habilitada			| No       | S, N			 						 |
+|habilitado   		 | string   | Determina si se encuentra habilitada			| No       | S - N			 						 |
 |email	      		 | string   | Email de la persona							| No       | email		 						 |
 |email2	      		 | string   | Email alternativo de la persona				| No       | email		 						 |
 |fechaNac     		 | Datetime | Fecha de nacimiento							| No       | YYYY-MM-DDThh:mm:ss		 		 |
