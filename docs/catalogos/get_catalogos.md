@@ -1,5 +1,10 @@
 ### Descripcion
-Permite obtener todos los catálogos asociados a una llave de acceso.
+Permite obtener todos los catálogos asociados a una llave de acceso. Por cada catálogo se obtienen las siguientes propiedades:
+
+* idCatalogo: Identificador único de catálogo.
+* nombre: Nombre del catálogo.
+* cantidadProductos: La cantidad de productos asociados.
+
 ___
 
 ### URL
@@ -32,19 +37,18 @@ ___
 ***Petición exitosa***
 ```json
 {
-    "catalogos": [
-        {
-            "idCatalogo": "1x2fdA",
-            "nombre": "Catalogo Gestor Comercial"
-        },
-        {
-            "idCatalogo": "1xuUdA",
-            "nombre": "Promociones"
-        }
-    ],
-    "paginador": {
-        "total": 2
+  "catalogos": [
+    {
+      "idCatalogo": "NzkzNQ", "nombre": "Catálogo 1", "cantidadProductos": 12345      
+    },
+    {
+      "idCatalogo": "ODA3MA", "nombre": "Catálogo 2", "cantidadProductos": 5432
+    },
+    {
+      "idCatalogo": "ODA3MQ", "nombre": "Catálogo 3", "cantidadProductos": 312      
     }
+  ],
+  "paginador": { "total": 3 }
 }
 ```
 
