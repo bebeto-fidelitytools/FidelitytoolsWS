@@ -25,7 +25,7 @@ temporal dura 1 minuto desde el momento que fue bloqueado.
 Los servicios web de Fidelitytools están divididos por módulos, donde por cada módulo se pueden
 realizar varias acciones.
 
-Para utilizar cualquier servicio web de Fidelitytools es necesario contar con un token, el cual es proporcionado por primera vez por los administradores de Fidelitytools. Este token tiene una validez de un dia. Luego hay que [regenerarlo](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/usuario/autenticaci%C3%B3n.md) para continuar consumiendo los servicios web.
+#### Para utilizar cualquier servicio web de Fidelitytools es necesario contar con un token, el cual es proporcionado por primera vez por los administradores de Fidelitytools. Este token tiene una validez de un dia. Luego hay que [regenerarlo](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/usuario/autenticaci%C3%B3n.md) para continuar consumiendo los servicios web.
 
 ---
 #### Módulo Usuario
