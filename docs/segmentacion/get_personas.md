@@ -27,10 +27,10 @@ ___
 | idSegmento | Si | Id del segmento en donde se va a buscar las personas. |
 | offset | Si | La posición desde donde arranca el rango de registros a obtener. |
 | limit | Si | Limite de registros a obtener. El limite permitido por el sistema es de 100.| 
-| fechaAltaDesde | Opcional | Fecha de alta desde de una o más personas. **Formato dd/mm/aaaa**
-| fechaAltaHasta | Opcional |Fecha de alta hasta de una o más personas. **Formato dd/mm/aaaa**
-| fechaModificacionDesde | Opcional |Fecha de modificación desde de una o más personas. **Formato dd/mm/aaaa**
-| fechaModificacionHasta| Opcional |Fecha de modificación hasta de una o más personas. **Formato dd/mm/aaaa**
+| fechaAltaDesde | Si | Fecha de alta desde de una o más personas. **Formato dd/mm/aaaa**
+| fechaAltaHasta | Si |Fecha de alta hasta de una o más personas. **Formato dd/mm/aaaa**
+| fechaModificacionDesde | Si |Fecha de modificación desde de una o más personas. **Formato dd/mm/aaaa**
+| fechaModificacionHasta| Si |Fecha de modificación hasta de una o más personas. **Formato dd/mm/aaaa**
 
 Los parámetros de tipo fecha pueden utilizarse tanto por separado como en conjunto, pero es
 obligatorio el uso **al menos de un conjunto** desde – hasta.
@@ -38,6 +38,9 @@ obligatorio el uso **al menos de un conjunto** desde – hasta.
 Los conjuntos son:
 1. fechaAltaDesde – fechaAltaHasta.
 2. fechaModificacionDesde – fechaModificacionHasta.
+
+Si no se quiere usar un conjunto se deben mandar los parametros con valor nulo. Por ejemplo:
+https://ws.fidelitytools.net/v2/api/segmentacion/persona/getPersonas/Mzc4Mg/0/100?fechaAltaDesde=01/01/2018&fechaAltaHasta=01/01/2019&fechaModificacionDesde=&fechaModificacionHasta=
 
 ___
 ### Ejemplo
