@@ -1,5 +1,5 @@
 ### Descripcion
-Permite agregar uno o más productos a un catálogo determinado.
+Permite agregar uno o más productos a una categoria perteneciente a un catálogo determinado. Esta categoria se identifica mediante su codigo interno y si no se encuentra una categoria registrada previamente con ese codigo interno se registrara la categoria.
 ___
 
 ### URL
