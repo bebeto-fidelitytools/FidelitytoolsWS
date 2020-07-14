@@ -32,7 +32,7 @@ ___
 ___
 
 ### Ejemplos
-Caso: Consultar el nombre y apellido de las personas que correspondan a un segmento.
+Caso: Consultar el nombre, apellido e email de las personas que correspondan a un segmento.
 
 ```json
 {
