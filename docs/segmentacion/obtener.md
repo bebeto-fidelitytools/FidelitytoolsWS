@@ -1,7 +1,6 @@
 ### Descripcion
 Esta consulta permite obtener un listado de hasta 100 personas a partir del resultado obtenido de aplicar un grupo de filtros.
-Los filtros se envián dentro del cuerpo de la consulta, para entender como se construyen estos filtros y personalizar tus conultas
-conulta el siguiente link ["Estructura de Filtros"](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/consultas/consulta.md)
+Los filtros se envián dentro del cuerpo de la consulta, para entender como se construyen estos filtros y personalizar tus conultas, ingresá al siguiente link ["Estructura de filtros"](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/consultas/consulta.md)
 ___
 
 ### URL
@@ -23,7 +22,9 @@ ___
 
 ##### Body
 
-Para consultar este endpoint se debe utilizar una [estructura de Filtros](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/consultas/consulta.md) en base a las [propiedades del modelo persona.](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/segmentacion/set_personas.md#propiedades-de-la-clase-persona)
+Dentro del body o cuerpo de la consulta se debe proporcionar los filtros, los filtros permiten ser más precisos con la información que se desea obtener. Para entender más de cómo se crean los filtros ingresa al siguiente link ["Estructura de filtros"](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/consultas/consulta.md).
+
+Es importante que tengas en cuenta que estos filtros deben basase en las ["Propiedades del modelo persona."](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/segmentacion/set_personas.md#propiedades-de-la-clase-persona)
 
 ___
 ### Ejemplo
