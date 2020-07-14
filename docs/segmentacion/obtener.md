@@ -21,7 +21,7 @@ ___
 
 ##### Body
 
-Para consultar este endpoint se debe utilizar una [estructura de consultas]() en base a las [propiedades del modelo persona.](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/segmentacion/set_personas.md#propiedades-de-la-clase-persona)
+Para consultar este endpoint se debe utilizar una [estructura de consultas](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/consultas/consulta.md) en base a las [propiedades del modelo persona.](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/segmentacion/set_personas.md#propiedades-de-la-clase-persona)
 
 ___
 ### Ejemplo
