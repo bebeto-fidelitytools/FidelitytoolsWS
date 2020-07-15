@@ -1,6 +1,6 @@
 ### Descripcion
 Esta consulta permite obtener un listado de hasta 100 personas a partir del resultado obtenido de aplicar un grupo de filtros.
-Los filtros se envián dentro del cuerpo de la consulta, para entender como se construyen estos filtros y personalizar tus conultas, ingresá al siguiente link ["Estructura de filtros"](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/consultas/consulta.md)
+Los filtros se envián dentro del cuerpo de la consulta, para entender como se construyen estos filtros y personalizar tus consultas, ingresá al siguiente link ["Estructura de filtros"](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/consultas/consulta.md)
 ___
 
 ### URL
