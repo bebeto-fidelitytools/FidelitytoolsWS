@@ -37,7 +37,7 @@ curl -X POST
 https://ws.fidelitytools.net/v2/api/segmentacion/persona/set
 ```
 ___
-### Respuestas
+### Respuestas ([Estructura de respuestas](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/consultas/respuesta.md))
 ***Petición exitosa***
 ```json
 {
