@@ -24,7 +24,7 @@ ___
 
 Dentro del body o cuerpo de la consulta se debe proporcionar los filtros, los filtros permiten ser más precisos con la información que se desea obtener. Para entender más de cómo se crean los filtros ingresa al siguiente link ["Estructura de filtros"](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/consultas/consulta.md).
 
-Es importante que tengas en cuenta que estos filtros deben basase en las ["Propiedades del modelo persona."](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/segmentacion/set_personas.md#propiedades-de-la-clase-persona)
+Es importante que tengas en cuenta que estos filtros deben basarse en las ["Propiedades del modelo persona."](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/segmentacion/set_personas.md#propiedades-de-la-clase-persona)
 
 ___
 ### Ejemplo
