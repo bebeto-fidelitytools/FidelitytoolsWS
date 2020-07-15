@@ -67,3 +67,23 @@ Caso: Buscar a una persona por su dni e email
     "limit": 1
 }
 ```
+
+Caso: Buscar personas con fecha de alta posterior o igual al 8/7/2020 a las 10:15 hs
+
+```json
+{
+    "filtros": [
+        {
+            "propertyName": "fechaAlta",
+            "value": "2020-07-08 10:15:00",
+            "comparator": "GreaterThanOrEqual"
+        }
+    ],
+    "select": [
+        "apellido",
+        "nombre",
+        "email",
+        "fechaAlta"
+    ]
+}
+```
