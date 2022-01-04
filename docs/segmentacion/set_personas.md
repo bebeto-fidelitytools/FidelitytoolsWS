@@ -88,7 +88,8 @@ activo el campo de comprobación por defecto idPersona.
 |segmento     		 | Object   | Segmento al cúal la persona pertenece			| Si       | Clase segmento						 |
 |nombre       		 | string   | Nombre de la persona							| No       | -			 						 |
 |apellido     		 | string   | Apellido de la persona						| No       | -			 						 |
-|dni	      		 | int      | Código identificador único					| No       | Nro. Entero 						 |
+|TipoDocumento.idTipoDocumento | int   |  Determina el tipo de documento de identificación de la persona. Considerar que apesar que el nombre del campo para el número es "dni" el tipo de documento puede ser CUIT o un PASAPORTE. | No | No |
+|dni	      		 | int      | Número de identificación unico de la persona. 					| No       | Nro. Entero 						 |
 |apellido     		 | string   | Apellido de la persona						| No       | -			 						 |
 |habilitado   		 | string   | Determina si se encuentra habilitada			| No       | S - N			 						 |
 |email	      		 | string   | Email de la persona							| No       | email		 						 |
@@ -137,6 +138,23 @@ cuando la persona está asociada a otra persona.
 
 Los campos de tipo fecha por defecto utilizan el formato UTC: YYYY-MM-DDThh:mm:ss
 
+##### ID's Tipos de documentos
+
+|    ID    | ABREVIATURA|  DESCRIPCIÓN          		       				|
+|----------|------------|-----------------------------------------------------------------------|
+|1	|DNI		| DOCUMENTO ÚNICO DE IDENTIFICACIÓN 					|
+|2	|C.I		| CEDULA DE IDENTIDAD 							|
+|3	|L.E		|LIBRETA DE ENROLAMIENTO						|
+|4	|L.C		|LIBRETA CIVICA								|
+|5	|CUIL		| CÓDIGO ÚNICO DE IDENTIFICACIÓN LABORAL				|
+|6	|CUIT		| CÓDIGO ÚNICO DE IDENTIFICACIÓN TRIBUTARÍA				|
+|7	|MATRICULA	|-									|
+|8	|PASAPORTE	|-									|
+|9	|C.F		|CEDULA POLICIA FEDERAL							|
+|10	|C.I POLICIA FED| CEDULA DE IDENTIFICACIÓN POLICIA FEDERAL				|
+|11	|RUC		| REGISTRO ÚNICO DE CONTRIBUYENTE (PERÚ)				|
+
+
 ---
 ### URL
 
@@ -163,18 +181,19 @@ POST
 [
 	{
 		"segmento": { "idSegmento": "ABC123" },
-		"nombre": "Nombre de persona",
-		"apellido": "Apellido de persona",
+		"nombre": "Anthony Edward",
+		"apellido": "Stark",
+		"tipoDocumento": {"idTipoDocumento": 1}
 		"dni": 12345678,
-		"email": "email_1@email.com.ar",
+		"email": "ironman@mail.com",
 		"tipoPers": "persona",
 		"pref3": 351,
 		"movil": 6987654,
-		"observaciones": "Observaciones sobre la persona",
+		"observaciones": "El Lorem Ipsum fue concebido como un texto de relleno, formateado de una cierta manera para permitir la presentación de elementos gráficos.",
         	"fechaNac": "1987-12-15T14:15:44",
 		"perfilesGenerales": 
-		[
-			{ "idPerfilGeneral": 123, "perfilGeneralValores": [ {"idPerfilGeneralValor": "999"}, {"idPerfilGeneralValor": "998"} ] }
+		[	
+			{ "idPerfilGeneral": 123, "perfilGeneralValores": [ {"idPerfilGeneralValor": "Empresario"}, {"idPerfilGeneralValor": "Ingeniero"} ] }
 		],
 		"camposPersonales":
 		[
@@ -192,7 +211,7 @@ curl -X POST
 -H "Content-Type: application/json" 
 -H "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6InVzZXJBY2Nlc3NDb25maWciLCJuYmYiOjE1NTYxMjI1NzYsImV4cCI6MTU1NjIwODk3NiwiaWF0IjoxNTU2MTIyNTc2LCJpc3MiOiJodHRwczovL3dzLmZpZGVsaXR5dG9vbHMubmV0L3YyIiwiYXVkIjoiaHR0cHM6Ly93cy5maWRlbGl0eXRvb2xzLm5ldC92MiJ9.lIY6hvvs8kjzAblEQzxkRcj-tVQOJ5Jmkh_ynmeLAe4" 
 -H "key: 5c2e343fdad07d2b94e184d4" 
--d "[{ \"segmento\": { \"idSegmento\": \"NjA2NA\" }, \"dni\": \"33437253\", \"email\":\"bebeto@fidelitytools.com\", \"habilitado\":\"S\", \"nombre\":\"Bebeto\", \"provincia\": \"Cordoba\", \"tipoPers\":\"persona\" }]" 
+-d "[{ \"segmento\": { \"idSegmento\": \"NjA2NA\" }, \"dni\": \"12345678\", \"email\":\"ironman@mail.com\", \"habilitado\":\"S\", \"nombre\":\"Anthony Edward\", \"provincia\": \"California\", \"tipoPers\":\"persona\" }]" 
 https://ws.fidelitytools.net/v2/api/segmentacion/persona/set
 ```
 
