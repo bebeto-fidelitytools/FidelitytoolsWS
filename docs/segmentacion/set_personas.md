@@ -193,7 +193,7 @@ POST
         	"fechaNac": "1987-12-15T14:15:44",
 		"perfilesGenerales": 
 		[	
-			{ "idPerfilGeneral": 123, "perfilGeneralValores": [ {"idPerfilGeneralValor": "Empresario"}, {"idPerfilGeneralValor": "Ingeniero"} ] }
+			{ "idPerfilGeneral": 123, "perfilGeneralValores": [ {"idPerfilGeneralValor": "1234", "nombre": "valor1"}, {"idPerfilGeneralValor": "12345", "nombre": "valor2"} ] }
 		],
 		"camposPersonales":
 		[
