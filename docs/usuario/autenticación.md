@@ -1,38 +1,67 @@
-### Descripcion
-Recibe como parametro un token caducado y retorna un nuevo token.
+### Descripción
+Este endpoint permite renovar el token de acceso, que luego debe utilizarse en los demás endpoints del servicio.
+
+El flujo de renovación del token es el siguiente:
+
+1. El token inicial ya se encuentra en la ficha de acceso compartida.
+2. Cuando necesite renovar el acceso, envía ese mismo token al endpoint de refresh y recibe uno nuevo.
+3. Con el token generado puede consumir los demás servicios.
+
+### Vigencia del token
+El token de acceso tiene una vigencia de 24 horas.
+Si el token ya venció, también puede enviarlo en este endpoint para obtener un nuevo token y continuar operando.
+
+### Sistema de autenticación utilizado
+Este servicio trabaja con JWT (JSON Web Token).
+
+JWT es un token firmado digitalmente que permite validar la identidad del cliente en cada solicitud.
+
+Características principales para cliente:
+
+1. No requiere sesión activa en el servidor para cada llamada.
+2. El token se envía en cada petición a servicios protegidos.
+3. Si el token vence, puede renovarse mediante este endpoint de refresh.
+
 ___
 
 ### URL
-` https://ws.fidelitytools.net/v2/api/user/gettokenrefresh `
+https://ws.fidelitytools.net/v2/api/user/gettokenrefresh
+
 ___
 
 ### Método
 GET
+
 ___
+
 ### Parámetros
 
 ##### Headers
 
-|Parámetro |Requerido |Descripción                 |
-|----------|----------|----------------------------|
-| token | Si | el token que se quiere regenerar. |
+| Parámetro | Requerido | Descripción |
+|----------|----------|-------------|
+| token | Si | Token actual del cliente. Puede enviarse como `Bearer <token>` o solo el token. |
 
 ___
+
 ### Ejemplo
 ```bash
-curl -XGET 
--H "Content-Type: application/json" 
--H "token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkbmlxdWVfbmFtZSI6InVzZXJb25maWciLCJuYmYiOjE1NTYxMTk0MNjIwNTgwNywiaWF0IjoxNTU2MTE5NDA3LCJpczovL3dzLmZpZGVsaXR5dG9vbHMubmV0L3YyIiwiYXVkIjoiaHa2U2asdasdy5maWRlbGl0eXRvb2xzLm5ldC92MiJ9RDDpMHEB4SsmY0j87OcS5mbxe2XxSAY" 
-https://ws.fidelitytools.net/v2/api/user/gettokenrefresh
+curl -X GET \
+    -H "Content-Type: application/json" \
+    -H "token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9..." \
+    "https://ws.fidelitytools.net/v2/api/user/gettokenrefresh"
 ```
+
 ___
+
 ### Respuestas
+
 ***Petición exitosa***
 ```json
 {
     "mensajes": [
         {
-            "respuesta": "101JhbGciOiJIUz664hdg2YaRInR5cCI6IkbmlxdWVfbmFtZSI6InVzZXJb25maWciLCJuYmYiOjE1NTYxMTk0MNjIwNTgwNywiaWF0IjoxNTU2MTE5NDA3LCJpczovL3dzLmZpZGVsaXR5dG9vbHMubmV0L3YyIiwiYXVkIjoiaHa2U2asdasdy5maWRlbGl0eXRvb2xzLm5ldC92MiJ9RDDpMHEB4SsmY0j87OcS5mbxe2XxSAttsa",
+            "respuesta": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...",
             "estado": true
         }
     ]
@@ -41,7 +70,7 @@ ___
 
 ##### HTTP STATUS CODE: 200 (Ok)
 
-***Peticiones inválidas:*** [bad_request](https://github.com/bebeto-fidelitytools/FidelitytoolsWS/blob/master/docs/usuario/bad_request.md)
+***Peticiones inválidas:*** [bad_request](bad_request.md)
 
  
 
